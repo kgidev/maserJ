@@ -1,0 +1,544 @@
+<html>
+<head>
+<title>jcoverage details for view.MaserComponentsImage</title><style>
+<!--
+body {
+background-color: white;
+}
+
+p {
+text-align: left;
+margin-top: 10pt;
+margin-bottom: 10pt;
+}
+
+p, h1, h2, h3, td, th, dt {
+font-family: verdana, arial, sans-serif;
+font-size: 10pt;
+line-height: 100%;
+margin-left: 0pt;
+}
+
+li {
+font-family: verdana, arial, sans-serif;
+font-size: 10pt;
+line-height: 100%;
+margin-left: 0pt;
+}
+
+h1 {
+font-size: 14pt;
+}
+
+h2 {
+font-size: 12pt;
+margin-top: 12pt;
+}
+
+pre {
+line-height: 100%;
+}
+
+tr.yin td {
+background: #f0f0f0;
+}
+
+tr.yin td {
+background: #f0f0f0;
+}
+
+tr.highlight td {
+background: #ffff44;
+}
+
+th {
+border-width: 1px 0px 1px 1px;
+border-color: black;
+border-style: solid;
+text-align: center;
+}
+
+th.remainder {
+border-width: 1px 1px 1px 1px;
+}
+
+td.lineno {
+border-width: 0px 0px 0px 1px;
+border-color: black;
+border-style: solid;
+text-align: right;
+}
+
+td.hits {
+border-width: 0px 0px 0px 1px;
+border-color: black;
+border-style: solid;
+text-align: right;
+}
+
+td.code {
+border-width: 0px 0px 0px 1px;
+border-color: black;
+border-style: solid;
+text-align: left;
+}
+
+td.coverage {
+text-align: right;
+}
+
+td.lines {
+text-align: right;
+}
+
+td.files {
+text-align: right;
+}
+
+.navbar {
+margin-top: 0pt;
+color: white;
+vertical-align: top;
+text-align: left;
+font-size: 10pt;
+margin-left: 0pt;
+background-color: green;
+padding: 2pt;
+padding-left: 4pt;
+line-height: 120%;
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+}
+
+.navbar a:visited {
+color: white;
+text-decoration: none;
+}
+
+.navbar a:link {
+color: white;
+text-decoration: none;
+}
+
+.navbar a:hover {
+color: white;
+text-decoration: none;
+}
+
+p.view a {
+color: #0000aa;
+text-decoration: none;
+}
+
+p.legalleft {
+font-size: 8pt;
+margin-top: 6pt;
+border-top: 1px solid black;
+color: #444444;
+text-align: left;
+}
+
+p.legalright {
+font-size: 8pt;
+margin-top: 6pt;
+border-top: 1px solid black;
+color: #444444;
+text-align: right;
+}
+
+a:link {
+color: #0000aa;
+text-decoration: none;
+}
+
+a:visited {
+color: #0000aa;
+text-decoration: none;
+}
+
+-->
+
+</style>
+
+</head>
+<body>
+<img src="http://jcoverage.com/images/shim@product.version@.gif" width="1" height="1">
+<p class="navbar"><b><a href="http://jcoverage.com">jcoverage</a></b> | <a href="index.html">summary</a> | <a href="view.html">package</a> | file
+<p>
+<h1>Coverage details for view.MaserComponentsImage</h1><table border="0" cellpadding="2" cellspacing="0" width="85%">
+<tr><th>Line</th><th>Hits</th><th class="remainder">Source</th></tr>
+<tr class="yang"><td class="lineno">1</td><td class="hits">&nbsp;</td><td class="code"><tt>/**</tt></td></tr>
+<tr class="yin"><td class="lineno">2</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;* </tt></td></tr>
+<tr class="yang"><td class="lineno">3</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">4</td><td class="hits">&nbsp;</td><td class="code"><tt>package view;</tt></td></tr>
+<tr class="yang"><td class="lineno">5</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">6</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.Color;</tt></td></tr>
+<tr class="yang"><td class="lineno">7</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.Font;</tt></td></tr>
+<tr class="yin"><td class="lineno">8</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.FontMetrics;</tt></td></tr>
+<tr class="yang"><td class="lineno">9</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.Graphics2D;</tt></td></tr>
+<tr class="yin"><td class="lineno">10</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.RenderingHints;</tt></td></tr>
+<tr class="yang"><td class="lineno">11</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.geom.AffineTransform;</tt></td></tr>
+<tr class="yin"><td class="lineno">12</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.image.BufferedImage;</tt></td></tr>
+<tr class="yang"><td class="lineno">13</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.image.ColorModel;</tt></td></tr>
+<tr class="yin"><td class="lineno">14</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.image.IndexColorModel;</tt></td></tr>
+<tr class="yang"><td class="lineno">15</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.image.WritableRaster;</tt></td></tr>
+<tr class="yin"><td class="lineno">16</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.ArrayList;</tt></td></tr>
+<tr class="yang"><td class="lineno">17</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.Arrays;</tt></td></tr>
+<tr class="yin"><td class="lineno">18</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.HashMap;</tt></td></tr>
+<tr class="yang"><td class="lineno">19</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.Hashtable;</tt></td></tr>
+<tr class="yin"><td class="lineno">20</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.Random;</tt></td></tr>
+<tr class="yang"><td class="lineno">21</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">22</td><td class="hits">&nbsp;</td><td class="code"><tt>import org.apache.commons.lang.ArrayUtils;</tt></td></tr>
+<tr class="yang"><td class="lineno">23</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">24</td><td class="hits">&nbsp;</td><td class="code"><tt>import tools.MyMath;</tt></td></tr>
+<tr class="yang"><td class="lineno">25</td><td class="hits">&nbsp;</td><td class="code"><tt>import tools.ToolBox;</tt></td></tr>
+<tr class="yin"><td class="lineno">26</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">27</td><td class="hits">&nbsp;</td><td class="code"><tt>import model.MaserComponent;</tt></td></tr>
+<tr class="yin"><td class="lineno">28</td><td class="hits">&nbsp;</td><td class="code"><tt>import model.DBTable;</tt></td></tr>
+<tr class="yang"><td class="lineno">29</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">30</td><td class="hits">&nbsp;</td><td class="code"><tt>import controller.MaserJ;</tt></td></tr>
+<tr class="yang"><td class="lineno">31</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">32</td><td class="hits">&nbsp;</td><td class="code"><tt>/**</tt></td></tr>
+<tr class="yang"><td class="lineno">33</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">34</td><td class="hits">&nbsp;</td><td class="code"><tt>public class MaserComponentsImage extends BufferedImage {</tt></td></tr>
+<tr class="yang"><td class="lineno">35</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;static int width=500;</tt></td></tr>
+<tr class="yin"><td class="lineno">36</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;static int height=500;</tt></td></tr>
+<tr class="yang"><td class="lineno">37</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;private Graphics2D g2d;</tt></td></tr>
+<tr class="yin"><td class="lineno">38</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;private static int imageType=MaserJ.BIMG_TYPE;</tt></td></tr>
+<tr class="yang"><td class="lineno">39</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;Color bgColor=Color.BLACK;</tt></td></tr>
+<tr class="yin"><td class="lineno">40</td><td class="hits">428</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected Color textColor=Color.WHITE;//new Color(183,215,250);    //light-blue</tt></td></tr>
+<tr class="yang"><td class="lineno">41</td><td class="hits">428</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected FontMetrics fontMetrics;</tt></td></tr>
+<tr class="yin"><td class="lineno">42</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;double[] xRange = {-250,250}; //range of X-Offset from Model</tt></td></tr>
+<tr class="yang"><td class="lineno">43</td><td class="hits">428</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;double[] yRange = {-250,250}; //range of Y-Offset from Model</tt></td></tr>
+<tr class="yin"><td class="lineno">44</td><td class="hits">428</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;double[] intensityRange = {0.0,110.0};     //range of Maser-Intensitys </tt></td></tr>
+<tr class="yang"><td class="lineno">45</td><td class="hits">428</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;double[] velocityRange = {-5.0,5.0};         //range of Maser-velocitys</tt></td></tr>
+<tr class="yin"><td class="lineno">46</td><td class="hits">428</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;int[] dopplerColorRange = {0,240};</tt></td></tr>
+<tr class="yang"><td class="lineno">47</td><td class="hits">428</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;MaserComponent[] maserComponents;</tt></td></tr>
+<tr class="yin"><td class="lineno">48</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected boolean interpolated=false;</tt></td></tr>
+<tr class="yang"><td class="lineno">49</td><td class="hits">428</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">50</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">51</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* empty Constuctor </tt></td></tr>
+<tr class="yin"><td class="lineno">52</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">53</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public MaserComponentsImage() {</tt></td></tr>
+<tr class="yin"><td class="lineno">54</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super(width, height, imageType);</tt></td></tr>
+<tr class="yang"><td class="lineno">55</td><td class="hits">8</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">56</td><td class="hits">8</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">57</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">58</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param width</tt></td></tr>
+<tr class="yang"><td class="lineno">59</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param height</tt></td></tr>
+<tr class="yin"><td class="lineno">60</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">61</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public MaserComponentsImage(int width, int height,MaserComponent[] components) {</tt></td></tr>
+<tr class="yin"><td class="lineno">62</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super(width, height, imageType);</tt></td></tr>
+<tr class="yang"><td class="lineno">63</td><td class="hits">36</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d=this.createGraphics();</tt></td></tr>
+<tr class="yin"><td class="lineno">64</td><td class="hits">36</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maserComponents=components;</tt></td></tr>
+<tr class="yang"><td class="lineno">65</td><td class="hits">36</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compose();</tt></td></tr>
+<tr class="yin"><td class="lineno">66</td><td class="hits">36</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// TODO Auto-generated constructor stub</tt></td></tr>
+<tr class="yang"><td class="lineno">67</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">68</td><td class="hits">36</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">69</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">70</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*  Constuctor </tt></td></tr>
+<tr class="yang"><td class="lineno">71</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">72</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public MaserComponentsImage(int width, int height,MaserComponent[] components,</tt></td></tr>
+<tr class="yang"><td class="lineno">73</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boolean interpolated) {</tt></td></tr>
+<tr class="yin"><td class="lineno">74</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super(width, height, imageType);</tt></td></tr>
+<tr class="yang"><td class="lineno">75</td><td class="hits">384</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d=this.createGraphics();</tt></td></tr>
+<tr class="yin"><td class="lineno">76</td><td class="hits">384</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maserComponents=components;</tt></td></tr>
+<tr class="yang"><td class="lineno">77</td><td class="hits">384</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.interpolated=interpolated;</tt></td></tr>
+<tr class="yin"><td class="lineno">78</td><td class="hits">384</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compose();</tt></td></tr>
+<tr class="yang"><td class="lineno">79</td><td class="hits">384</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">80</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">81</td><td class="hits">302</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">82</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">83</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* compose this Image from the parts</tt></td></tr>
+<tr class="yin"><td class="lineno">84</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">85</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void compose() {</tt></td></tr>
+<tr class="yin"><td class="lineno">86</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.setBackground(bgColor);</tt></td></tr>
+<tr class="yang"><td class="lineno">87</td><td class="hits">420</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.clearRect(0, 0, this.getWidth(), getHeight());</tt></td></tr>
+<tr class="yin"><td class="lineno">88</td><td class="hits">420</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//sort by velocity bzw. dopplerColor descending</tt></td></tr>
+<tr class="yang"><td class="lineno">89</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maserComponents =sortComponentsByVelocity(maserComponents);</tt></td></tr>
+<tr class="yin"><td class="lineno">90</td><td class="hits">420</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//loop over all components </tt></td></tr>
+<tr class="yang"><td class="lineno">91</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; maserComponents.length; i++) {</tt></td></tr>
+<tr class="yin"><td class="lineno">92</td><td class="hits">1861</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int[] xy= position(maserComponents[i].getXOffset(),maserComponents[i].getYOffset());</tt></td></tr>
+<tr class="yang"><td class="lineno">93</td><td class="hits">1523</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//TODO draw with center of CompImage as Pos</tt></td></tr>
+<tr class="yin"><td class="lineno">94</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BufferedImage compImage = createComponent(maserComponents[i]);</tt></td></tr>
+<tr class="yang"><td class="lineno">95</td><td class="hits">1523</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.drawImage(compImage, xy[0]-compImage.getWidth()/2,</tt></td></tr>
+<tr class="yin"><td class="lineno">96</td><td class="hits">3046</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xy[1]-compImage.getHeight()/2, null);</tt></td></tr>
+<tr class="yang"><td class="lineno">97</td><td class="hits">1523</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">98</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (interpolated) {</tt></td></tr>
+<tr class="yang"><td class="lineno">99</td><td class="hits">338</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING,</tt></td></tr>
+<tr class="highlight"><td class="lineno">100</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RenderingHints.VALUE_TEXT_ANTIALIAS_ON);</tt></td></tr>
+<tr class="highlight"><td class="lineno">101</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Font font=g2d.getFont();</tt></td></tr>
+<tr class="highlight"><td class="lineno">102</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Font fontBold=font.deriveFont(Font.BOLD,14);</tt></td></tr>
+<tr class="highlight"><td class="lineno">103</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.setFont(fontBold);</tt></td></tr>
+<tr class="highlight"><td class="lineno">104</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.setColor(textColor);</tt></td></tr>
+<tr class="highlight"><td class="lineno">105</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fontMetrics=g2d.getFontMetrics();</tt></td></tr>
+<tr class="highlight"><td class="lineno">106</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String str=&quot;INTERPOLATED DATA&quot;;</tt></td></tr>
+<tr class="highlight"><td class="lineno">107</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.drawString(str, width-fontMetrics.stringWidth(str+&quot;  &quot;),fontMetrics.getMaxAscent()+6);</tt></td></tr>
+<tr class="highlight"><td class="lineno">108</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}    </tt></td></tr>
+<tr class="yang"><td class="lineno">109</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">110</td><td class="hits">338</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">111</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">112</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* </tt></td></tr>
+<tr class="yang"><td class="lineno">113</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">114</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public BufferedImage createComponent(MaserComponent maserComponent) {</tt></td></tr>
+<tr class="yang"><td class="lineno">115</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int compSize=size(maserComponent.getIntensity());</tt></td></tr>
+<tr class="yin"><td class="lineno">116</td><td class="hits">1554</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int sizeX=compSize;</tt></td></tr>
+<tr class="yang"><td class="lineno">117</td><td class="hits">1554</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int sizeY=compSize;</tt></td></tr>
+<tr class="yin"><td class="lineno">118</td><td class="hits">1554</td><td class="code"><tt>//        System.out.println(ToolBox.getCurrentMethodName()+&quot; compSize: &quot;+compSize);</tt></td></tr>
+<tr class="yang"><td class="lineno">119</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BufferedImage createComponent=new BufferedImage(1,1,imageType);</tt></td></tr>
+<tr class="yin"><td class="lineno">120</td><td class="hits">1554</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Color compColor=dopplerColor(maserComponent.getVelocity());</tt></td></tr>
+<tr class="yang"><td class="lineno">121</td><td class="hits">1554</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (compSize&gt;0) {</tt></td></tr>
+<tr class="yin"><td class="lineno">122</td><td class="hits">1554</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;createComponent=new BufferedImage(sizeX,sizeY,imageType);</tt></td></tr>
+<tr class="yang"><td class="lineno">123</td><td class="hits">1554</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graphics2D compG2d = createComponent.createGraphics();</tt></td></tr>
+<tr class="yin"><td class="lineno">124</td><td class="hits">1554</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compG2d.drawImage(drawMaserComponent(compSize, compColor), 0, 0,</tt></td></tr>
+<tr class="yang"><td class="lineno">125</td><td class="hits">3108</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;null);</tt></td></tr>
+<tr class="yin"><td class="lineno">126</td><td class="hits">1554</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}        </tt></td></tr>
+<tr class="yang"><td class="lineno">127</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return createComponent;</tt></td></tr>
+<tr class="yin"><td class="lineno">128</td><td class="hits">1554</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">129</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">130</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">131</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* size calculated from logarithm of component-intensity</tt></td></tr>
+<tr class="yin"><td class="lineno">132</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* ?? max &amp; min </tt></td></tr>
+<tr class="yang"><td class="lineno">133</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param intensity</tt></td></tr>
+<tr class="yin"><td class="lineno">134</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return size in pixel with in the Image dimensions</tt></td></tr>
+<tr class="yang"><td class="lineno">135</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">136</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int size(double intensity) {</tt></td></tr>
+<tr class="yang"><td class="lineno">137</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//min =1px , max=ca. 1/10 imgSize</tt></td></tr>
+<tr class="yin"><td class="lineno">138</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// d = 20 log S + 26 </tt></td></tr>
+<tr class="yang"><td class="lineno">139</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int pixelSize=0;</tt></td></tr>
+<tr class="yin"><td class="lineno">140</td><td class="hits">2572</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double scaleFactor=20;//this.getWidth()*(0.05);</tt></td></tr>
+<tr class="yang"><td class="lineno">141</td><td class="hits">2572</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Double size= (Math.log10(intensity)*scaleFactor)+26;</tt></td></tr>
+<tr class="yin"><td class="lineno">142</td><td class="hits">2572</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">143</td><td class="hits">1920</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pixelSize= Math.round(size.longValue());</tt></td></tr>
+<tr class="yin"><td class="lineno">144</td><td class="hits">652</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return pixelSize;</tt></td></tr>
+<tr class="yang"><td class="lineno">145</td><td class="hits">652</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">146</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">147</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">148</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* pos calculated relative to imageSize and center coordinates</tt></td></tr>
+<tr class="yang"><td class="lineno">149</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* </tt></td></tr>
+<tr class="yin"><td class="lineno">150</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param xOffset, yOffset</tt></td></tr>
+<tr class="yang"><td class="lineno">151</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return xy position in this Image</tt></td></tr>
+<tr class="yin"><td class="lineno">152</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* </tt></td></tr>
+<tr class="yang"><td class="lineno">153</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">154</td><td class="hits">11401</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int[] position(double x,double y) {</tt></td></tr>
+<tr class="yang"><td class="lineno">155</td><td class="hits">11401</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int[] position=new int[2];</tt></td></tr>
+<tr class="yin"><td class="lineno">156</td><td class="hits">21534</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int centerX=this.getWidth()/2;</tt></td></tr>
+<tr class="yang"><td class="lineno">157</td><td class="hits">21534</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int centerY=this.getHeight()/2;</tt></td></tr>
+<tr class="yin"><td class="lineno">158</td><td class="hits">21534</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double scaleX =2*centerX/Math.abs(xRange[1]-xRange[0]);</tt></td></tr>
+<tr class="yang"><td class="lineno">159</td><td class="hits">21534</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;position[0]=(int) (x*scaleX)+centerX-1;</tt></td></tr>
+<tr class="yin"><td class="lineno">160</td><td class="hits">21534</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double scaleY =2*centerY/Math.abs(yRange[1]-yRange[0]);</tt></td></tr>
+<tr class="yang"><td class="lineno">161</td><td class="hits">21534</td><td class="code"><tt>//        device-coordinates are upsidedown</tt></td></tr>
+<tr class="yin"><td class="lineno">162</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;position[1]=(int) (centerY-(y*scaleY));</tt></td></tr>
+<tr class="yang"><td class="lineno">163</td><td class="hits">10133</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return position;</tt></td></tr>
+<tr class="yin"><td class="lineno">164</td><td class="hits">10133</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">165</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">166</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">167</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">168</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">169</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param velocity</tt></td></tr>
+<tr class="yin"><td class="lineno">170</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the dopplerColor  relativ to velocity-Range</tt></td></tr>
+<tr class="yang"><td class="lineno">171</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">172</td><td class="hits">101154</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public Color dopplerColor(double  velocity) {</tt></td></tr>
+<tr class="yang"><td class="lineno">173</td><td class="hits">&nbsp;</td><td class="code"><tt>//        deltaVelocity from Veloctiy-Range</tt></td></tr>
+<tr class="yin"><td class="lineno">174</td><td class="hits">101154</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double dV = Math.abs(getVelocityRange()[1]-getVelocityRange()[0]);</tt></td></tr>
+<tr class="yang"><td class="lineno">175</td><td class="hits">201047</td><td class="code"><tt>//        deltaHue from Hue-Range</tt></td></tr>
+<tr class="yin"><td class="lineno">176</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double dHue = Math.abs(getDopplerColorRange()[1]-getDopplerColorRange()[0]);</tt></td></tr>
+<tr class="yang"><td class="lineno">177</td><td class="hits">201047</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double scale =dHue/dV;</tt></td></tr>
+<tr class="yin"><td class="lineno">178</td><td class="hits">99893</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Hue offset from zero Velocity</tt></td></tr>
+<tr class="yang"><td class="lineno">179</td><td class="hits">101154</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double hueOffset = dHue*0.5f;</tt></td></tr>
+<tr class="yin"><td class="lineno">180</td><td class="hits">201047</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//linear transform </tt></td></tr>
+<tr class="yang"><td class="lineno">181</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double hue = (scale*velocity+hueOffset)/dHue;</tt></td></tr>
+<tr class="yin"><td class="lineno">182</td><td class="hits">99893</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return Color.getHSBColor((float)hue, 1f, 1f);</tt></td></tr>
+<tr class="yang"><td class="lineno">183</td><td class="hits">99893</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">184</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">185</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">186</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">187</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">188</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* draw a MaserImg by calculating the 1. quadrant and mirror it on x&amp;y-Axis</tt></td></tr>
+<tr class="yang"><td class="lineno">189</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* </tt></td></tr>
+<tr class="yin"><td class="lineno">190</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param color</tt></td></tr>
+<tr class="yang"><td class="lineno">191</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param size</tt></td></tr>
+<tr class="yin"><td class="lineno">192</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return image</tt></td></tr>
+<tr class="yang"><td class="lineno">193</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">194</td><td class="hits">1521</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">195</td><td class="hits">1521</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;static public BufferedImage drawMaserComponent(int size,Color color) {</tt></td></tr>
+<tr class="yin"><td class="lineno">196</td><td class="hits">1521</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int xDim = size / 2;</tt></td></tr>
+<tr class="yang"><td class="lineno">197</td><td class="hits">1774</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int yDim = size / 2;</tt></td></tr>
+<tr class="yin"><td class="lineno">198</td><td class="hits">1774</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Color transpColor = new Color(color.getRGB());</tt></td></tr>
+<tr class="yang"><td class="lineno">199</td><td class="hits">253</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int saturation = 0;</tt></td></tr>
+<tr class="yin"><td class="lineno">200</td><td class="hits">253</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BufferedImage maserImg = new BufferedImage(size, size, imageType);</tt></td></tr>
+<tr class="yang"><td class="lineno">201</td><td class="hits">1774</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">202</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// small sizes have special cases</tt></td></tr>
+<tr class="yang"><td class="lineno">203</td><td class="hits">1</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;switch (size) {</tt></td></tr>
+<tr class="yin"><td class="lineno">204</td><td class="hits">255</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case 1:</tt></td></tr>
+<tr class="yang"><td class="lineno">205</td><td class="hits">1</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;saturation = new Float(0.8f * 256f).intValue();</tt></td></tr>
+<tr class="yin"><td class="lineno">206</td><td class="hits">1</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transpColor = new Color(color.getRed(), color.getGreen(), color</tt></td></tr>
+<tr class="highlight"><td class="lineno">207</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.getBlue(), saturation);</tt></td></tr>
+<tr class="yin"><td class="lineno">208</td><td class="hits">1</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maserImg.setRGB(0, 0, transpColor.getRGB());</tt></td></tr>
+<tr class="highlight"><td class="lineno">209</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">210</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;</tt></td></tr>
+<tr class="highlight"><td class="lineno">211</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case 2:</tt></td></tr>
+<tr class="highlight"><td class="lineno">212</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;saturation = new Float(0.8f * 256f).intValue();</tt></td></tr>
+<tr class="highlight"><td class="lineno">213</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transpColor = new Color(color.getRed(), color.getGreen(), color</tt></td></tr>
+<tr class="highlight"><td class="lineno">214</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.getBlue(), saturation);</tt></td></tr>
+<tr class="highlight"><td class="lineno">215</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maserImg.setRGB(0, 0, transpColor.getRGB());</tt></td></tr>
+<tr class="highlight"><td class="lineno">216</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maserImg.setRGB(1, 0, transpColor.getRGB());</tt></td></tr>
+<tr class="highlight"><td class="lineno">217</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maserImg.setRGB(0, 1, transpColor.getRGB());</tt></td></tr>
+<tr class="highlight"><td class="lineno">218</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maserImg.setRGB(1, 1, transpColor.getRGB());</tt></td></tr>
+<tr class="highlight"><td class="lineno">219</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;</tt></td></tr>
+<tr class="highlight"><td class="lineno">220</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case 3:</tt></td></tr>
+<tr class="yang"><td class="lineno">221</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transpColor = color;</tt></td></tr>
+<tr class="highlight"><td class="lineno">222</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maserImg.setRGB(1, 1, transpColor.getRGB());</tt></td></tr>
+<tr class="highlight"><td class="lineno">223</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">224</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;</tt></td></tr>
+<tr class="yang"><td class="lineno">225</td><td class="hits">1520</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// size &gt; 3 pixels</tt></td></tr>
+<tr class="yin"><td class="lineno">226</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:</tt></td></tr>
+<tr class="yang"><td class="lineno">227</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double[][] gauss2DVals = MyMath.gauss2DTable(size / 2);</tt></td></tr>
+<tr class="yin"><td class="lineno">228</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// max Value from gauss2DVals * scale &lt;=1,</tt></td></tr>
+<tr class="yang"><td class="lineno">229</td><td class="hits">1520</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// ergo median has always saturation close to 1</tt></td></tr>
+<tr class="yin"><td class="lineno">230</td><td class="hits">1520</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Double max2DGauss = (Double) MyMath.array2DMax(MyMath</tt></td></tr>
+<tr class="yang"><td class="lineno">231</td><td class="hits">253</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.array2DCast2Objects(gauss2DVals));</tt></td></tr>
+<tr class="yin"><td class="lineno">232</td><td class="hits">253</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float zScale = 1 / max2DGauss.floatValue();</tt></td></tr>
+<tr class="yang"><td class="lineno">233</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// 1.Quadrant of 2D-Gauss</tt></td></tr>
+<tr class="yin"><td class="lineno">234</td><td class="hits">46697</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// TODO Transparancy</tt></td></tr>
+<tr class="yang"><td class="lineno">235</td><td class="hits">1668386</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BufferedImage img1quad = new BufferedImage(xDim, yDim, imageType);</tt></td></tr>
+<tr class="yin"><td class="lineno">236</td><td class="hits">3246671</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; xDim; i++) {</tt></td></tr>
+<tr class="yang"><td class="lineno">237</td><td class="hits">1634657</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int j = 0; j &lt; xDim; j++) {</tt></td></tr>
+<tr class="yin"><td class="lineno">238</td><td class="hits">667178</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;saturation = new Float(gauss2DVals[i][j] * 255f * zScale)</tt></td></tr>
+<tr class="yang"><td class="lineno">239</td><td class="hits">1311966</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.intValue();</tt></td></tr>
+<tr class="yin"><td class="lineno">240</td><td class="hits">3902401</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Color transpColor= MyImage.setSaturation(color,</tt></td></tr>
+<tr class="yang"><td class="lineno">241</td><td class="hits">1623209</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// saturation);</tt></td></tr>
+<tr class="yin"><td class="lineno">242</td><td class="hits">1623209</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transpColor = new Color(color.getRed(), color.getGreen(),</tt></td></tr>
+<tr class="yang"><td class="lineno">243</td><td class="hits">1311966</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color.getBlue(), saturation);</tt></td></tr>
+<tr class="yin"><td class="lineno">244</td><td class="hits">655983</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img1quad.setRGB(i, j, transpColor.getRGB());</tt></td></tr>
+<tr class="yang"><td class="lineno">245</td><td class="hits">655983</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">246</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">247</td><td class="hits">1520</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AffineTransform affineT = new AffineTransform();</tt></td></tr>
+<tr class="yin"><td class="lineno">248</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graphics2D g2d = maserImg.createGraphics();</tt></td></tr>
+<tr class="yang"><td class="lineno">249</td><td class="hits">253</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// g2d.setBackground(Color.RED);</tt></td></tr>
+<tr class="yin"><td class="lineno">250</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// g2d.clearRect(0, 0, size, size);</tt></td></tr>
+<tr class="yang"><td class="lineno">251</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// 1. Quadrant</tt></td></tr>
+<tr class="yin"><td class="lineno">252</td><td class="hits">1520</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT.rotate(Math.toRadians(180), xDim, yDim);</tt></td></tr>
+<tr class="yang"><td class="lineno">253</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT.translate(xDim, yDim);</tt></td></tr>
+<tr class="yin"><td class="lineno">254</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.drawImage(img1quad, affineT, null);</tt></td></tr>
+<tr class="yang"><td class="lineno">255</td><td class="hits">253</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// 2. Quadrant</tt></td></tr>
+<tr class="yin"><td class="lineno">256</td><td class="hits">1520</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT = new AffineTransform();</tt></td></tr>
+<tr class="yang"><td class="lineno">257</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT.rotate(Math.toRadians(270), xDim, 0);</tt></td></tr>
+<tr class="yin"><td class="lineno">258</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT.translate(0, 0);</tt></td></tr>
+<tr class="yang"><td class="lineno">259</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.drawImage(img1quad, affineT, null);</tt></td></tr>
+<tr class="yin"><td class="lineno">260</td><td class="hits">253</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// 3. Quadrant</tt></td></tr>
+<tr class="yang"><td class="lineno">261</td><td class="hits">1520</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT = new AffineTransform();</tt></td></tr>
+<tr class="yin"><td class="lineno">262</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT.rotate(Math.toRadians(0), xDim, yDim);</tt></td></tr>
+<tr class="yang"><td class="lineno">263</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT.translate(xDim, yDim);</tt></td></tr>
+<tr class="yin"><td class="lineno">264</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.drawImage(img1quad, affineT, null);</tt></td></tr>
+<tr class="yang"><td class="lineno">265</td><td class="hits">253</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// 4. Quadrant</tt></td></tr>
+<tr class="yin"><td class="lineno">266</td><td class="hits">1520</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT = new AffineTransform();</tt></td></tr>
+<tr class="yang"><td class="lineno">267</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT.rotate(Math.toRadians(90), xDim, yDim);</tt></td></tr>
+<tr class="yin"><td class="lineno">268</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affineT.translate(xDim, yDim);</tt></td></tr>
+<tr class="yang"><td class="lineno">269</td><td class="hits">1773</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.drawImage(img1quad, affineT, null);</tt></td></tr>
+<tr class="yin"><td class="lineno">270</td><td class="hits">253</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;</tt></td></tr>
+<tr class="yang"><td class="lineno">271</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">272</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return maserImg;</tt></td></tr>
+<tr class="yang"><td class="lineno">273</td><td class="hits">1774</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">274</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">275</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">276</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the intensityRange</tt></td></tr>
+<tr class="yang"><td class="lineno">277</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">278</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public double[] getIntensityRange() {</tt></td></tr>
+<tr class="yang"><td class="lineno">279</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return intensityRange;</tt></td></tr>
+<tr class="highlight"><td class="lineno">280</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">281</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">282</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">283</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param intensityRange the intensityRange to set</tt></td></tr>
+<tr class="yin"><td class="lineno">284</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">285</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setIntensityRange(double[] intensityRange) {</tt></td></tr>
+<tr class="yin"><td class="lineno">286</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.intensityRange = intensityRange;</tt></td></tr>
+<tr class="highlight"><td class="lineno">287</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">288</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">289</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">290</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the velocityRange</tt></td></tr>
+<tr class="yang"><td class="lineno">291</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">292</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public double[] getVelocityRange() {</tt></td></tr>
+<tr class="yang"><td class="lineno">293</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return velocityRange;</tt></td></tr>
+<tr class="yin"><td class="lineno">294</td><td class="hits">402094</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">295</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">296</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">297</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param velocityRange the velocityRange to set</tt></td></tr>
+<tr class="yin"><td class="lineno">298</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">299</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setVelocityRange(double[] velocityRange) {</tt></td></tr>
+<tr class="yin"><td class="lineno">300</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.velocityRange = velocityRange;</tt></td></tr>
+<tr class="yang"><td class="lineno">301</td><td class="hits">200002</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">302</td><td class="hits">200002</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">303</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">304</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the dopplerColorRange</tt></td></tr>
+<tr class="yang"><td class="lineno">305</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">306</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int[] getDopplerColorRange() {</tt></td></tr>
+<tr class="yang"><td class="lineno">307</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return dopplerColorRange;</tt></td></tr>
+<tr class="yin"><td class="lineno">308</td><td class="hits">402094</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">309</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">310</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">311</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param dopplerColorRange the dopplerColorRange to set</tt></td></tr>
+<tr class="yin"><td class="lineno">312</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">313</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setDopplerColorRange(int[] dopplerColorRange) {</tt></td></tr>
+<tr class="yin"><td class="lineno">314</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.dopplerColorRange = dopplerColorRange;</tt></td></tr>
+<tr class="highlight"><td class="lineno">315</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">316</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">317</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* sort ComponentsArray by Velocity</tt></td></tr>
+<tr class="yin"><td class="lineno">318</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param comps</tt></td></tr>
+<tr class="yang"><td class="lineno">319</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return sortedComps, sorted ComponentsArray by Velocity</tt></td></tr>
+<tr class="yin"><td class="lineno">320</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">321</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public static MaserComponent[] sortComponentsByVelocity(MaserComponent[] comps) {</tt></td></tr>
+<tr class="yin"><td class="lineno">322</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">323</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ArrayList&lt;MaserComponent&gt; compList = new ArrayList&lt;MaserComponent&gt;(Arrays.asList(comps));</tt></td></tr>
+<tr class="yin"><td class="lineno">324</td><td class="hits">423</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ArrayList&lt;MaserComponent&gt; sortedList =  new ArrayList&lt;MaserComponent&gt;(comps.length);</tt></td></tr>
+<tr class="yang"><td class="lineno">325</td><td class="hits">423</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compList.trimToSize();</tt></td></tr>
+<tr class="yin"><td class="lineno">326</td><td class="hits">423</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">327</td><td class="hits">&nbsp;</td><td class="code"><tt>//        try {</tt></td></tr>
+<tr class="yin"><td class="lineno">328</td><td class="hits">&nbsp;</td><td class="code"><tt>//            DBTable compTable=new DBTable(&quot;COMPONENTS&quot;);</tt></td></tr>
+<tr class="yang"><td class="lineno">329</td><td class="hits">&nbsp;</td><td class="code"><tt>//            HashMap&lt;String, Object&gt; componentData = </tt></td></tr>
+<tr class="yin"><td class="lineno">330</td><td class="hits">&nbsp;</td><td class="code"><tt>//                new Component(compTable.getTableStructAsContainerMap()).getDataMap();</tt></td></tr>
+<tr class="yang"><td class="lineno">331</td><td class="hits">&nbsp;</td><td class="code"><tt>//        } catch (Exception e) {</tt></td></tr>
+<tr class="yin"><td class="lineno">332</td><td class="hits">&nbsp;</td><td class="code"><tt>//            // TODO Auto-generated catch block</tt></td></tr>
+<tr class="yang"><td class="lineno">333</td><td class="hits">&nbsp;</td><td class="code"><tt>//            e.printStackTrace();</tt></td></tr>
+<tr class="yin"><td class="lineno">334</td><td class="hits">&nbsp;</td><td class="code"><tt>//        }</tt></td></tr>
+<tr class="yang"><td class="lineno">335</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">336</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Double[] values = new Double[comps.length];</tt></td></tr>
+<tr class="yang"><td class="lineno">337</td><td class="hits">423</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; comps.length; i++) {</tt></td></tr>
+<tr class="yin"><td class="lineno">338</td><td class="hits">1976</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;values[i]=comps[i].getVelocity();</tt></td></tr>
+<tr class="yang"><td class="lineno">339</td><td class="hits">1635</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">340</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">341</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Double[] preSortvalues = values.clone();</tt></td></tr>
+<tr class="yin"><td class="lineno">342</td><td class="hits">341</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arrays.sort(values);    // and objects?!</tt></td></tr>
+<tr class="yang"><td class="lineno">343</td><td class="hits">341</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">344</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; values.length; i++) {</tt></td></tr>
+<tr class="yang"><td class="lineno">345</td><td class="hits">1894</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int sortIndex= ArrayUtils.indexOf(preSortvalues,values[i]);</tt></td></tr>
+<tr class="yin"><td class="lineno">346</td><td class="hits">1553</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preSortvalues = (Double[]) ArrayUtils.remove(preSortvalues, sortIndex);</tt></td></tr>
+<tr class="yang"><td class="lineno">347</td><td class="hits">1553</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sortedList.add(compList.get(sortIndex));</tt></td></tr>
+<tr class="yin"><td class="lineno">348</td><td class="hits">1553</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compList.remove(sortIndex);</tt></td></tr>
+<tr class="yang"><td class="lineno">349</td><td class="hits">1553</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//        ArrayUtils.indexOf(preSortvalues, );</tt></td></tr>
+<tr class="yin"><td class="lineno">350</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">351</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}            </tt></td></tr>
+<tr class="yin"><td class="lineno">352</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return sortedList.toArray(comps);</tt></td></tr>
+<tr class="yang"><td class="lineno">353</td><td class="hits">341</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">354</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">355</td><td class="hits">&nbsp;</td><td class="code"><tt>}</tt></td></tr>
+</table>
+<p>
+<p class="navbar"><b><a href="http://jcoverage.com">jcoverage</a></b> | <a href="index.html">summary</a> | <a href="view.html">package</a> | file
+<p>
+<table width="100%" cellpadding="0" cellspacing="0"><tr valign="top"><td>
+<p class="legalleft">
+this report was generated by version @product.version@ of jcoverage.<br>
+visit <a href="http://www.jcoverage.com">www.jcoverage.com</a> for updates.<br>
+</td><td>
+<p class="legalright">
+copyright &copy; 2003, jcoverage ltd. all rights reserved.<br>
+Java is a trademark of Sun Microsystems, Inc. in the United States and other countries.<br>
+</td></tr></table>
+
+</body>
+
+</html>

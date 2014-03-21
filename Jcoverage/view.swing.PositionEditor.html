@@ -1,0 +1,695 @@
+<html>
+<head>
+<title>jcoverage details for view.swing.PositionEditor</title><style>
+<!--
+body {
+background-color: white;
+}
+
+p {
+text-align: left;
+margin-top: 10pt;
+margin-bottom: 10pt;
+}
+
+p, h1, h2, h3, td, th, dt {
+font-family: verdana, arial, sans-serif;
+font-size: 10pt;
+line-height: 100%;
+margin-left: 0pt;
+}
+
+li {
+font-family: verdana, arial, sans-serif;
+font-size: 10pt;
+line-height: 100%;
+margin-left: 0pt;
+}
+
+h1 {
+font-size: 14pt;
+}
+
+h2 {
+font-size: 12pt;
+margin-top: 12pt;
+}
+
+pre {
+line-height: 100%;
+}
+
+tr.yin td {
+background: #f0f0f0;
+}
+
+tr.yin td {
+background: #f0f0f0;
+}
+
+tr.highlight td {
+background: #ffff44;
+}
+
+th {
+border-width: 1px 0px 1px 1px;
+border-color: black;
+border-style: solid;
+text-align: center;
+}
+
+th.remainder {
+border-width: 1px 1px 1px 1px;
+}
+
+td.lineno {
+border-width: 0px 0px 0px 1px;
+border-color: black;
+border-style: solid;
+text-align: right;
+}
+
+td.hits {
+border-width: 0px 0px 0px 1px;
+border-color: black;
+border-style: solid;
+text-align: right;
+}
+
+td.code {
+border-width: 0px 0px 0px 1px;
+border-color: black;
+border-style: solid;
+text-align: left;
+}
+
+td.coverage {
+text-align: right;
+}
+
+td.lines {
+text-align: right;
+}
+
+td.files {
+text-align: right;
+}
+
+.navbar {
+margin-top: 0pt;
+color: white;
+vertical-align: top;
+text-align: left;
+font-size: 10pt;
+margin-left: 0pt;
+background-color: green;
+padding: 2pt;
+padding-left: 4pt;
+line-height: 120%;
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+}
+
+.navbar a:visited {
+color: white;
+text-decoration: none;
+}
+
+.navbar a:link {
+color: white;
+text-decoration: none;
+}
+
+.navbar a:hover {
+color: white;
+text-decoration: none;
+}
+
+p.view a {
+color: #0000aa;
+text-decoration: none;
+}
+
+p.legalleft {
+font-size: 8pt;
+margin-top: 6pt;
+border-top: 1px solid black;
+color: #444444;
+text-align: left;
+}
+
+p.legalright {
+font-size: 8pt;
+margin-top: 6pt;
+border-top: 1px solid black;
+color: #444444;
+text-align: right;
+}
+
+a:link {
+color: #0000aa;
+text-decoration: none;
+}
+
+a:visited {
+color: #0000aa;
+text-decoration: none;
+}
+
+-->
+
+</style>
+
+</head>
+<body>
+<img src="http://jcoverage.com/images/shim@product.version@.gif" width="1" height="1">
+<p class="navbar"><b><a href="http://jcoverage.com">jcoverage</a></b> | <a href="index.html">summary</a> | <a href="view.swing.html">package</a> | file
+<p>
+<h1>Coverage details for view.swing.PositionEditor</h1><table border="0" cellpadding="2" cellspacing="0" width="85%">
+<tr><th>Line</th><th>Hits</th><th class="remainder">Source</th></tr>
+<tr class="yang"><td class="lineno">1</td><td class="hits">&nbsp;</td><td class="code"><tt>package view.swing;</tt></td></tr>
+<tr class="yin"><td class="lineno">2</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">3</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.BorderLayout;</tt></td></tr>
+<tr class="yin"><td class="lineno">4</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.Color;</tt></td></tr>
+<tr class="yang"><td class="lineno">5</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.ComponentOrientation;</tt></td></tr>
+<tr class="yin"><td class="lineno">6</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.Container;</tt></td></tr>
+<tr class="yang"><td class="lineno">7</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.Dimension;</tt></td></tr>
+<tr class="yin"><td class="lineno">8</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.GridBagConstraints;</tt></td></tr>
+<tr class="yang"><td class="lineno">9</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.GridBagLayout;</tt></td></tr>
+<tr class="yin"><td class="lineno">10</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.GridLayout;</tt></td></tr>
+<tr class="yang"><td class="lineno">11</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.Insets;</tt></td></tr>
+<tr class="yin"><td class="lineno">12</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.event.ActionEvent;</tt></td></tr>
+<tr class="yang"><td class="lineno">13</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.event.ActionListener;</tt></td></tr>
+<tr class="yin"><td class="lineno">14</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.event.WindowListener;</tt></td></tr>
+<tr class="yang"><td class="lineno">15</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.text.NumberFormat;</tt></td></tr>
+<tr class="yin"><td class="lineno">16</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.ArrayList;</tt></td></tr>
+<tr class="yang"><td class="lineno">17</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.HashMap;</tt></td></tr>
+<tr class="yin"><td class="lineno">18</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.List;</tt></td></tr>
+<tr class="yang"><td class="lineno">19</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.Set;</tt></td></tr>
+<tr class="yin"><td class="lineno">20</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">21</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.*;</tt></td></tr>
+<tr class="yin"><td class="lineno">22</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.border.Border;</tt></td></tr>
+<tr class="yang"><td class="lineno">23</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.event.DocumentEvent;</tt></td></tr>
+<tr class="yin"><td class="lineno">24</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.event.DocumentListener;</tt></td></tr>
+<tr class="yang"><td class="lineno">25</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.event.ListSelectionEvent;</tt></td></tr>
+<tr class="yin"><td class="lineno">26</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.event.ListSelectionListener;</tt></td></tr>
+<tr class="yang"><td class="lineno">27</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.event.TableModelEvent;</tt></td></tr>
+<tr class="yin"><td class="lineno">28</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.event.TableModelListener;</tt></td></tr>
+<tr class="yang"><td class="lineno">29</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.table.TableModel;</tt></td></tr>
+<tr class="yin"><td class="lineno">30</td><td class="hits">&nbsp;</td><td class="code"><tt>import javax.swing.text.Document;</tt></td></tr>
+<tr class="yang"><td class="lineno">31</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">32</td><td class="hits">&nbsp;</td><td class="code"><tt>import tools.ToolBox;</tt></td></tr>
+<tr class="yang"><td class="lineno">33</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">34</td><td class="hits">&nbsp;</td><td class="code"><tt>import model.CelestialObject;</tt></td></tr>
+<tr class="yang"><td class="lineno">35</td><td class="hits">&nbsp;</td><td class="code"><tt>import model.MaserComponent;</tt></td></tr>
+<tr class="yin"><td class="lineno">36</td><td class="hits">&nbsp;</td><td class="code"><tt>import model.Observation;</tt></td></tr>
+<tr class="yang"><td class="lineno">37</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">38</td><td class="hits">&nbsp;</td><td class="code"><tt>import controller.MaserJ;</tt></td></tr>
+<tr class="yang"><td class="lineno">39</td><td class="hits">&nbsp;</td><td class="code"><tt>import  com.fdsapi.arrays.ArrayComparator;</tt></td></tr>
+<tr class="yin"><td class="lineno">40</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">41</td><td class="hits">&nbsp;</td><td class="code"><tt>public class PositionEditor implements ActionListener, TableModelListener {</tt></td></tr>
+<tr class="yin"><td class="lineno">42</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;final static boolean shouldFill = true;</tt></td></tr>
+<tr class="yang"><td class="lineno">43</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">44</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;final static boolean shouldWeightX = true;</tt></td></tr>
+<tr class="yang"><td class="lineno">45</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">46</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;final static boolean RIGHT_TO_LEFT = false;</tt></td></tr>
+<tr class="yang"><td class="lineno">47</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">48</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;private static final boolean DEBUG = false;</tt></td></tr>
+<tr class="yang"><td class="lineno">49</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">50</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;Observation[] observations;</tt></td></tr>
+<tr class="yang"><td class="lineno">51</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">52</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;String editMode = &quot;000&quot;; // readonly,111 editAll, celObj,obs,comps...</tt></td></tr>
+<tr class="yang"><td class="lineno">53</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">54</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;JFrame frame;</tt></td></tr>
+<tr class="yang"><td class="lineno">55</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">56</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;Color inverseColor = new Color(183, 215, 250); // TODO central</tt></td></tr>
+<tr class="yang"><td class="lineno">57</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">58</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;Color bgColor = Color.WHITE;</tt></td></tr>
+<tr class="yang"><td class="lineno">59</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">60</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;Color fgColor = Color.BLACK;</tt></td></tr>
+<tr class="yang"><td class="lineno">61</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">62</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;boolean editable = true;</tt></td></tr>
+<tr class="yang"><td class="lineno">63</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">64</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;Border lineBorder = BorderFactory.createLineBorder(Color.black, 1);</tt></td></tr>
+<tr class="yang"><td class="lineno">65</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">66</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;boolean changeFlag = false;</tt></td></tr>
+<tr class="yang"><td class="lineno">67</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">68</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;Observation currentObs;</tt></td></tr>
+<tr class="yang"><td class="lineno">69</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">70</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;// ref to celObjPanel</tt></td></tr>
+<tr class="yang"><td class="lineno">71</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;ArrayList&lt;JPanel&gt; textPanels = new ArrayList&lt;JPanel&gt;(2);</tt></td></tr>
+<tr class="yin"><td class="lineno">72</td><td class="hits">5</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">73</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;// to compare the initValues with currentValues</tt></td></tr>
+<tr class="yin"><td class="lineno">74</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;HashMap&lt;String, Object&gt; initCelObjDataMap = new HashMap&lt;String, Object&gt;(0);</tt></td></tr>
+<tr class="yang"><td class="lineno">75</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">76</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;HashMap&lt;String, Object&gt; initObsDataMap = new HashMap&lt;String, Object&gt;(0);</tt></td></tr>
+<tr class="yang"><td class="lineno">77</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">78</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;ArrayList&lt;HashMap&lt;String, Object&gt;&gt; obsInitDataList = new ArrayList&lt;HashMap&lt;String, Object&gt;&gt;();</tt></td></tr>
+<tr class="yang"><td class="lineno">79</td><td class="hits">5</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">80</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;HashMap&lt;String, Object&gt; compsInputValueMap = new HashMap&lt;String, Object&gt;(0);</tt></td></tr>
+<tr class="yang"><td class="lineno">81</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">82</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;ArrayList&lt;HashMap&lt;String, Object&gt;&gt; compsInitDataList = new ArrayList&lt;HashMap&lt;String, Object&gt;&gt;();</tt></td></tr>
+<tr class="yang"><td class="lineno">83</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;JTable tablePanel;</tt></td></tr>
+<tr class="yin"><td class="lineno">84</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;MaserComponent[] allComps;</tt></td></tr>
+<tr class="yang"><td class="lineno">85</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;ListSelectionModel listSelectionModel;</tt></td></tr>
+<tr class="yin"><td class="lineno">86</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;MaserComponentsTable maserComponentsPanel;</tt></td></tr>
+<tr class="yang"><td class="lineno">87</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">88</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;private Object[][] tableData;</tt></td></tr>
+<tr class="yang"><td class="lineno">89</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">90</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;private String[] columnNames;</tt></td></tr>
+<tr class="yang"><td class="lineno">91</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">92</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;private JPanel componentPanel;</tt></td></tr>
+<tr class="yang"><td class="lineno">93</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">94</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">95</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* standart Constructor</tt></td></tr>
+<tr class="yin"><td class="lineno">96</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">97</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public PositionEditor(Observation[] observations) {</tt></td></tr>
+<tr class="yin"><td class="lineno">98</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.observations = observations;        </tt></td></tr>
+<tr class="yang"><td class="lineno">99</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//set theComponents</tt></td></tr>
+<tr class="yin"><td class="lineno">100</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setAllComps(getAllCompsFromObs(observations));</tt></td></tr>
+<tr class="yang"><td class="lineno">101</td><td class="hits">&nbsp;</td><td class="code"><tt>//         save the initValues from DataModel</tt></td></tr>
+<tr class="yin"><td class="lineno">102</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;saveInitValues(observations);</tt></td></tr>
+<tr class="yang"><td class="lineno">103</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Schedule a job for the event-dispatching thread:</tt></td></tr>
+<tr class="yin"><td class="lineno">104</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// creating and showing this application's GUI.</tt></td></tr>
+<tr class="yang"><td class="lineno">105</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;javax.swing.SwingUtilities.invokeLater(new Runnable() {</tt></td></tr>
+<tr class="yin"><td class="lineno">106</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public void run() {</tt></td></tr>
+<tr class="yang"><td class="lineno">107</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try {</tt></td></tr>
+<tr class="yin"><td class="lineno">108</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;createAndShowGUI();</tt></td></tr>
+<tr class="yang"><td class="lineno">109</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} catch (Exception e) {</tt></td></tr>
+<tr class="yin"><td class="lineno">110</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// TODO Auto-generated catch block</tt></td></tr>
+<tr class="yang"><td class="lineno">111</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e.printStackTrace();</tt></td></tr>
+<tr class="yin"><td class="lineno">112</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">113</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">114</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</tt></td></tr>
+<tr class="yang"><td class="lineno">115</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">116</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">117</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;class MyDocumentListener implements DocumentListener {</tt></td></tr>
+<tr class="yin"><td class="lineno">118</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final String newline = &quot;\n&quot;;</tt></td></tr>
+<tr class="yang"><td class="lineno">119</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">120</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public void insertUpdate(DocumentEvent e) {</tt></td></tr>
+<tr class="yang"><td class="lineno">121</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;updateLog(e, &quot;inserted into&quot;);</tt></td></tr>
+<tr class="yin"><td class="lineno">122</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setChangeFlag(true);</tt></td></tr>
+<tr class="yang"><td class="lineno">123</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">124</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">125</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public void removeUpdate(DocumentEvent e) {</tt></td></tr>
+<tr class="yin"><td class="lineno">126</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;updateLog(e, &quot;removed from&quot;);</tt></td></tr>
+<tr class="yang"><td class="lineno">127</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setChangeFlag(true);</tt></td></tr>
+<tr class="yin"><td class="lineno">128</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">129</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">130</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public void changedUpdate(DocumentEvent e) {</tt></td></tr>
+<tr class="yang"><td class="lineno">131</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Plain text components don't fire these events.</tt></td></tr>
+<tr class="yin"><td class="lineno">132</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">133</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">134</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public void updateLog(DocumentEvent e, String action) {</tt></td></tr>
+<tr class="yang"><td class="lineno">135</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Document doc = (Document) e.getDocument();</tt></td></tr>
+<tr class="yin"><td class="lineno">136</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int changeLength = e.getLength();</tt></td></tr>
+<tr class="yang"><td class="lineno">137</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String appendStr = changeLength + &quot; character&quot;</tt></td></tr>
+<tr class="yin"><td class="lineno">138</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ ((changeLength == 1) ? &quot; &quot; : &quot;s &quot;) + action + &quot; &quot;</tt></td></tr>
+<tr class="yang"><td class="lineno">139</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ doc.getProperty(&quot;name&quot;) + &quot;.&quot; + newline</tt></td></tr>
+<tr class="yin"><td class="lineno">140</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ &quot;  Text length = &quot; + doc.getLength() + newline;</tt></td></tr>
+<tr class="yang"><td class="lineno">141</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// displayArea.append(appendStr);</tt></td></tr>
+<tr class="yin"><td class="lineno">142</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// displayArea.setCaretPosition(displayArea.getDocument().getLength());</tt></td></tr>
+<tr class="yang"><td class="lineno">143</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;DocumentEvent: &quot; + e.getDocument());</tt></td></tr>
+<tr class="yin"><td class="lineno">144</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;DocumentEvent: &quot; + e);</tt></td></tr>
+<tr class="yang"><td class="lineno">145</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;DocumentListener: &quot; + appendStr);</tt></td></tr>
+<tr class="yin"><td class="lineno">146</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">147</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">148</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">149</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">150</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;class SharedListSelectionHandler implements ListSelectionListener {</tt></td></tr>
+<tr class="yang"><td class="lineno">151</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public void valueChanged(ListSelectionEvent e) { </tt></td></tr>
+<tr class="yin"><td class="lineno">152</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ListSelectionModel lsm = (ListSelectionModel)e.getSource();</tt></td></tr>
+<tr class="yang"><td class="lineno">153</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">154</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int firstIndex = e.getFirstIndex();</tt></td></tr>
+<tr class="yang"><td class="lineno">155</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int lastIndex = e.getLastIndex();</tt></td></tr>
+<tr class="yin"><td class="lineno">156</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boolean isAdjusting = e.getValueIsAdjusting(); </tt></td></tr>
+<tr class="yang"><td class="lineno">157</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(</tt></td></tr>
+<tr class="yin"><td class="lineno">158</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Event for indexes &quot;</tt></td></tr>
+<tr class="yang"><td class="lineno">159</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ firstIndex + &quot; - &quot; + lastIndex</tt></td></tr>
+<tr class="yin"><td class="lineno">160</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ &quot;; isAdjusting is &quot; + isAdjusting</tt></td></tr>
+<tr class="yang"><td class="lineno">161</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ &quot;; selected indexes:&quot;);</tt></td></tr>
+<tr class="yin"><td class="lineno">162</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">163</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (lsm.isSelectionEmpty()) {</tt></td></tr>
+<tr class="yin"><td class="lineno">164</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot; &lt;none&gt;&quot;);</tt></td></tr>
+<tr class="yang"><td class="lineno">165</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} else {</tt></td></tr>
+<tr class="yin"><td class="lineno">166</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Find out which indexes are selected.</tt></td></tr>
+<tr class="yang"><td class="lineno">167</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int minIndex = lsm.getMinSelectionIndex();</tt></td></tr>
+<tr class="yin"><td class="lineno">168</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int maxIndex = lsm.getMaxSelectionIndex();</tt></td></tr>
+<tr class="yang"><td class="lineno">169</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = minIndex; i &lt;= maxIndex; i++) {</tt></td></tr>
+<tr class="yin"><td class="lineno">170</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (lsm.isSelectedIndex(i)) {</tt></td></tr>
+<tr class="yang"><td class="lineno">171</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot; &quot; + i);</tt></td></tr>
+<tr class="yin"><td class="lineno">172</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">173</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">174</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">175</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;lsm index: &quot;+ lsm.getMinSelectionIndex());</tt></td></tr>
+<tr class="yin"><td class="lineno">176</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">177</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">178</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">179</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">180</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">181</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Create the GUI and show it. For thread safety, this method should be</tt></td></tr>
+<tr class="yin"><td class="lineno">182</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* invoked from the event-dispatching thread.</tt></td></tr>
+<tr class="yang"><td class="lineno">183</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* </tt></td></tr>
+<tr class="yin"><td class="lineno">184</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @throws Exception</tt></td></tr>
+<tr class="yang"><td class="lineno">185</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">186</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;private void createAndShowGUI() throws Exception {</tt></td></tr>
+<tr class="yang"><td class="lineno">187</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Create and set up the window.</tt></td></tr>
+<tr class="yin"><td class="lineno">188</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frame = new JFrame(&quot;MaserJ  Position Editor&quot;);</tt></td></tr>
+<tr class="yang"><td class="lineno">189</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);</tt></td></tr>
+<tr class="yin"><td class="lineno">190</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setChangeFlag(false);</tt></td></tr>
+<tr class="yang"><td class="lineno">191</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Set up the content pane.</tt></td></tr>
+<tr class="yin"><td class="lineno">192</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;addComponentsToPane(frame.getContentPane());</tt></td></tr>
+<tr class="yang"><td class="lineno">193</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">194</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Display the window.</tt></td></tr>
+<tr class="yang"><td class="lineno">195</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int width = 800;</tt></td></tr>
+<tr class="yin"><td class="lineno">196</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int height = 600;</tt></td></tr>
+<tr class="yang"><td class="lineno">197</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frame.setSize(width, height);</tt></td></tr>
+<tr class="yin"><td class="lineno">198</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// frame.pack();</tt></td></tr>
+<tr class="yang"><td class="lineno">199</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frame.setVisible(true);</tt></td></tr>
+<tr class="yin"><td class="lineno">200</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">201</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">202</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;// Set up the content pane.</tt></td></tr>
+<tr class="highlight"><td class="lineno">203</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void addComponentsToPane(Container pane) {</tt></td></tr>
+<tr class="highlight"><td class="lineno">204</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">205</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JButton button;</tt></td></tr>
+<tr class="yin"><td class="lineno">206</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GridBagLayout gridbag = new GridBagLayout();</tt></td></tr>
+<tr class="highlight"><td class="lineno">207</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pane.setLayout(gridbag);</tt></td></tr>
+<tr class="highlight"><td class="lineno">208</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GridBagConstraints gridBagConstraints = new GridBagConstraints();</tt></td></tr>
+<tr class="yang"><td class="lineno">209</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.fill = GridBagConstraints.BOTH;</tt></td></tr>
+<tr class="yin"><td class="lineno">210</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">211</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;componentPanel = componentPanel(allComps);</tt></td></tr>
+<tr class="yin"><td class="lineno">212</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridx = 0;</tt></td></tr>
+<tr class="yang"><td class="lineno">213</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridy = 0;</tt></td></tr>
+<tr class="yin"><td class="lineno">214</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridheight = 2;</tt></td></tr>
+<tr class="yang"><td class="lineno">215</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridwidth = 2;</tt></td></tr>
+<tr class="yin"><td class="lineno">216</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.weightx = 1;</tt></td></tr>
+<tr class="yang"><td class="lineno">217</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.weighty = 5;</tt></td></tr>
+<tr class="yin"><td class="lineno">218</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridbag.setConstraints(componentPanel, gridBagConstraints);</tt></td></tr>
+<tr class="yang"><td class="lineno">219</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pane.add(componentPanel, gridBagConstraints);</tt></td></tr>
+<tr class="highlight"><td class="lineno">220</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">221</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.insets = new Insets(0,10,0,10);</tt></td></tr>
+<tr class="highlight"><td class="lineno">222</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JButton okButton = new JButton(&quot;Set&quot;);</tt></td></tr>
+<tr class="highlight"><td class="lineno">223</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;okButton.addActionListener(this);</tt></td></tr>
+<tr class="highlight"><td class="lineno">224</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// gridBagConstraints.fill = GridBagConstraints.HORIZONTAL;</tt></td></tr>
+<tr class="highlight"><td class="lineno">225</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridx = 0;</tt></td></tr>
+<tr class="highlight"><td class="lineno">226</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridy = 2;</tt></td></tr>
+<tr class="highlight"><td class="lineno">227</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// gridBagConstraints.gridheight = 1;</tt></td></tr>
+<tr class="yin"><td class="lineno">228</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridwidth = 1;</tt></td></tr>
+<tr class="highlight"><td class="lineno">229</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.weightx = 1;</tt></td></tr>
+<tr class="highlight"><td class="lineno">230</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.weighty = 0.25;</tt></td></tr>
+<tr class="highlight"><td class="lineno">231</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.anchor = GridBagConstraints.LAST_LINE_START;</tt></td></tr>
+<tr class="yin"><td class="lineno">232</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">233</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridbag.setConstraints(okButton, gridBagConstraints);</tt></td></tr>
+<tr class="highlight"><td class="lineno">234</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pane.add(okButton);</tt></td></tr>
+<tr class="yang"><td class="lineno">235</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">236</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JButton cancelButton = new JButton(&quot;Reset&quot;);</tt></td></tr>
+<tr class="highlight"><td class="lineno">237</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cancelButton.addActionListener(this);</tt></td></tr>
+<tr class="highlight"><td class="lineno">238</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// gridBagConstraints.fill = GridBagConstraints.HORIZONTAL;</tt></td></tr>
+<tr class="highlight"><td class="lineno">239</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridx = 1;</tt></td></tr>
+<tr class="yin"><td class="lineno">240</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridy = 2;</tt></td></tr>
+<tr class="highlight"><td class="lineno">241</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridheight = 1;</tt></td></tr>
+<tr class="highlight"><td class="lineno">242</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.gridwidth = 1;</tt></td></tr>
+<tr class="yang"><td class="lineno">243</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.weightx = 1;</tt></td></tr>
+<tr class="highlight"><td class="lineno">244</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.weighty = 0.25;</tt></td></tr>
+<tr class="highlight"><td class="lineno">245</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridBagConstraints.anchor = GridBagConstraints.LAST_LINE_END;</tt></td></tr>
+<tr class="yin"><td class="lineno">246</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gridbag.setConstraints(cancelButton, gridBagConstraints);</tt></td></tr>
+<tr class="highlight"><td class="lineno">247</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pane.add(cancelButton);</tt></td></tr>
+<tr class="highlight"><td class="lineno">248</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">249</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">250</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">251</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">252</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">253</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;JPanel componentPanel(MaserComponent[] comps) {</tt></td></tr>
+<tr class="highlight"><td class="lineno">254</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// TODO layout, editmodes,void setEditable(boolean)</tt></td></tr>
+<tr class="highlight"><td class="lineno">255</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JPanel componentPanel = new JPanel();</tt></td></tr>
+<tr class="yin"><td class="lineno">256</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;componentPanel.setLayout(new BorderLayout());</tt></td></tr>
+<tr class="highlight"><td class="lineno">257</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;componentPanel.setBackground(bgColor);</tt></td></tr>
+<tr class="yin"><td class="lineno">258</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JLabel headerLabel = new JLabel(&quot;MaserComponents&quot;);</tt></td></tr>
+<tr class="yang"><td class="lineno">259</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;headerLabel.setBorder(lineBorder);</tt></td></tr>
+<tr class="yin"><td class="lineno">260</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;componentPanel.add(headerLabel, BorderLayout.PAGE_START);</tt></td></tr>
+<tr class="yang"><td class="lineno">261</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;componentPanel.add(new JSeparator(SwingConstants.HORIZONTAL));</tt></td></tr>
+<tr class="yin"><td class="lineno">262</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;componentPanel.setBorder(BorderFactory.createEtchedBorder());</tt></td></tr>
+<tr class="yang"><td class="lineno">263</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;componentPanel.setVisible(true);</tt></td></tr>
+<tr class="yin"><td class="lineno">264</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maserComponentsPanel = new MaserComponentsTable(comps);</tt></td></tr>
+<tr class="yang"><td class="lineno">265</td><td class="hits">5</td><td class="code"><tt>//        maserComponentsPanel.ch</tt></td></tr>
+<tr class="yin"><td class="lineno">266</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//JScrollPane tablePanel = tablePanel(comps);</tt></td></tr>
+<tr class="yang"><td class="lineno">267</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;componentPanel.add(maserComponentsPanel);</tt></td></tr>
+<tr class="yin"><td class="lineno">268</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return componentPanel;</tt></td></tr>
+<tr class="yang"><td class="lineno">269</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">270</td><td class="hits">5</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">271</td><td class="hits">5</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">272</td><td class="hits">5</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">273</td><td class="hits">&nbsp;</td><td class="code"><tt>//    public JScrollPane tablePanel(MaserComponent[] comps) {</tt></td></tr>
+<tr class="yin"><td class="lineno">274</td><td class="hits">&nbsp;</td><td class="code"><tt>//        </tt></td></tr>
+<tr class="highlight"><td class="lineno">275</td><td class="hits">0</td><td class="code"><tt>//        </tt></td></tr>
+<tr class="highlight"><td class="lineno">276</td><td class="hits">0</td><td class="code"><tt>//        columnNames = comps[0].getDataMap().keySet().toArray(</tt></td></tr>
+<tr class="yang"><td class="lineno">277</td><td class="hits">&nbsp;</td><td class="code"><tt>//                        new String[0]);</tt></td></tr>
+<tr class="yin"><td class="lineno">278</td><td class="hits">&nbsp;</td><td class="code"><tt>//        tableData = new Object[comps.length][];</tt></td></tr>
+<tr class="yang"><td class="lineno">279</td><td class="hits">&nbsp;</td><td class="code"><tt>//        for (int i = 0; i &lt; comps.length; i++) {</tt></td></tr>
+<tr class="yin"><td class="lineno">280</td><td class="hits">&nbsp;</td><td class="code"><tt>//            HashMap&lt;String, Object&gt; dataMap = comps[i].getDataMap();</tt></td></tr>
+<tr class="yang"><td class="lineno">281</td><td class="hits">&nbsp;</td><td class="code"><tt>//            tableData[i] = dataMap.values().toArray();</tt></td></tr>
+<tr class="yin"><td class="lineno">282</td><td class="hits">&nbsp;</td><td class="code"><tt>//        }</tt></td></tr>
+<tr class="yang"><td class="lineno">283</td><td class="hits">&nbsp;</td><td class="code"><tt>//        tableData = sortTableDateByXYoffset(tableData);</tt></td></tr>
+<tr class="yin"><td class="lineno">284</td><td class="hits">&nbsp;</td><td class="code"><tt>//        tablePanel = new JTable(tableData, columnNames);</tt></td></tr>
+<tr class="yang"><td class="lineno">285</td><td class="hits">&nbsp;</td><td class="code"><tt>//        tablePanel.getModel().addTableModelListener(this);</tt></td></tr>
+<tr class="yin"><td class="lineno">286</td><td class="hits">&nbsp;</td><td class="code"><tt>//        tablePanel.setGridColor(fgColor);</tt></td></tr>
+<tr class="yang"><td class="lineno">287</td><td class="hits">&nbsp;</td><td class="code"><tt>//        tablePanel.setShowGrid(true);</tt></td></tr>
+<tr class="yin"><td class="lineno">288</td><td class="hits">&nbsp;</td><td class="code"><tt>//        listSelectionModel = tablePanel.getSelectionModel();</tt></td></tr>
+<tr class="yang"><td class="lineno">289</td><td class="hits">&nbsp;</td><td class="code"><tt>//        listSelectionModel.addListSelectionListener(new SharedListSelectionHandler());</tt></td></tr>
+<tr class="yin"><td class="lineno">290</td><td class="hits">&nbsp;</td><td class="code"><tt>//        listSelectionModel.setSelectionMode(</tt></td></tr>
+<tr class="yang"><td class="lineno">291</td><td class="hits">&nbsp;</td><td class="code"><tt>//                ListSelectionModel.SINGLE_SELECTION);</tt></td></tr>
+<tr class="yin"><td class="lineno">292</td><td class="hits">&nbsp;</td><td class="code"><tt>//        tablePanel.setSelectionModel(listSelectionModel);</tt></td></tr>
+<tr class="yang"><td class="lineno">293</td><td class="hits">&nbsp;</td><td class="code"><tt>//        </tt></td></tr>
+<tr class="yin"><td class="lineno">294</td><td class="hits">&nbsp;</td><td class="code"><tt>////        tablePanel.setPreferredScrollableViewportSize(new Dimension(500, 70));</tt></td></tr>
+<tr class="yang"><td class="lineno">295</td><td class="hits">&nbsp;</td><td class="code"><tt>//        // tablePanel.getModel().addTableModelListener(</tt></td></tr>
+<tr class="yin"><td class="lineno">296</td><td class="hits">&nbsp;</td><td class="code"><tt>//        // new MyDocumentListener());</tt></td></tr>
+<tr class="yang"><td class="lineno">297</td><td class="hits">&nbsp;</td><td class="code"><tt>//</tt></td></tr>
+<tr class="yin"><td class="lineno">298</td><td class="hits">&nbsp;</td><td class="code"><tt>//        // Create the scroll pane and add the table to it.</tt></td></tr>
+<tr class="yang"><td class="lineno">299</td><td class="hits">&nbsp;</td><td class="code"><tt>//        JScrollPane scrollPane = new JScrollPane(tablePanel);</tt></td></tr>
+<tr class="yin"><td class="lineno">300</td><td class="hits">&nbsp;</td><td class="code"><tt>//        return scrollPane;</tt></td></tr>
+<tr class="yang"><td class="lineno">301</td><td class="hits">&nbsp;</td><td class="code"><tt>//</tt></td></tr>
+<tr class="yin"><td class="lineno">302</td><td class="hits">&nbsp;</td><td class="code"><tt>//    }</tt></td></tr>
+<tr class="yang"><td class="lineno">303</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">304</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/*</tt></td></tr>
+<tr class="yang"><td class="lineno">305</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* general Event-Handling (non-Javadoc)</tt></td></tr>
+<tr class="yin"><td class="lineno">306</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* </tt></td></tr>
+<tr class="yang"><td class="lineno">307</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)</tt></td></tr>
+<tr class="yin"><td class="lineno">308</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">309</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void actionPerformed(ActionEvent e) {</tt></td></tr>
+<tr class="yin"><td class="lineno">310</td><td class="hits">&nbsp;</td><td class="code"><tt>//         System.out.println(ToolBox.getCurrentMethodName() + &quot;e.getSource(): &quot; +  e.getSource());</tt></td></tr>
+<tr class="yang"><td class="lineno">311</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// System.out.println(ToolBox.getCurrentMethodName()</tt></td></tr>
+<tr class="yin"><td class="lineno">312</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// + &quot;e.getActionCommand(): &quot; + e.getActionCommand());</tt></td></tr>
+<tr class="yang"><td class="lineno">313</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// cancel -&gt; init();</tt></td></tr>
+<tr class="yin"><td class="lineno">314</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">315</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (e.getActionCommand().equals(&quot;Reset&quot;)) {</tt></td></tr>
+<tr class="yin"><td class="lineno">316</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try {</tt></td></tr>
+<tr class="yang"><td class="lineno">317</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;componentPanel = componentPanel(allComps);</tt></td></tr>
+<tr class="yin"><td class="lineno">318</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//frame.repaint();</tt></td></tr>
+<tr class="yang"><td class="lineno">319</td><td class="hits">&nbsp;</td><td class="code"><tt>//                addComponentsToPane(frame.getContentPane());</tt></td></tr>
+<tr class="yin"><td class="lineno">320</td><td class="hits">&nbsp;</td><td class="code"><tt>//                createAndShowGUI();</tt></td></tr>
+<tr class="yang"><td class="lineno">321</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} catch (Exception e1) {</tt></td></tr>
+<tr class="yin"><td class="lineno">322</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// TODO Auto-generated catch block</tt></td></tr>
+<tr class="highlight"><td class="lineno">323</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e1.printStackTrace();</tt></td></tr>
+<tr class="yin"><td class="lineno">324</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">325</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">326</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">327</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">328</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (e.getActionCommand().equals(&quot;Set&quot;) &amp;&amp; maserComponentsPanel.isChangeFlag()) {</tt></td></tr>
+<tr class="highlight"><td class="lineno">329</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// System.out.println(&quot;msg answer:&quot;</tt></td></tr>
+<tr class="yin"><td class="lineno">330</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// + ((JTextField) e.getSource()).getName());</tt></td></tr>
+<tr class="highlight"><td class="lineno">331</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int userAnswer = JOptionPane.showConfirmDialog(frame,</tt></td></tr>
+<tr class="yin"><td class="lineno">332</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;save changes ?&quot;, e.getActionCommand(),</tt></td></tr>
+<tr class="yang"><td class="lineno">333</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);</tt></td></tr>
+<tr class="yin"><td class="lineno">334</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (userAnswer == 0) {</tt></td></tr>
+<tr class="yang"><td class="lineno">335</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// System.out.println(&quot;msg answer:&quot;</tt></td></tr>
+<tr class="highlight"><td class="lineno">336</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// + ((JTextField) e.getSource()).getName());</tt></td></tr>
+<tr class="yang"><td class="lineno">337</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;commitChanges();</tt></td></tr>
+<tr class="yin"><td class="lineno">338</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// close window??</tt></td></tr>
+<tr class="highlight"><td class="lineno">339</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">340</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">341</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">342</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">343</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) {</tt></td></tr>
+<tr class="yin"><td class="lineno">344</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PositionEditor posEditor = new PositionEditor(null);</tt></td></tr>
+<tr class="highlight"><td class="lineno">345</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">346</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">347</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">348</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* save the initValues from Input to compare them later with changes</tt></td></tr>
+<tr class="highlight"><td class="lineno">349</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">350</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public boolean saveInitValues(Observation[] observations) {</tt></td></tr>
+<tr class="yang"><td class="lineno">351</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boolean saveInitValues = false;</tt></td></tr>
+<tr class="highlight"><td class="lineno">352</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// celOBJ</tt></td></tr>
+<tr class="highlight"><td class="lineno">353</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;initCelObjDataMap = (HashMap&lt;String, Object&gt;) observations[0]</tt></td></tr>
+<tr class="yin"><td class="lineno">354</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.getCelObject().getDataMap().clone();</tt></td></tr>
+<tr class="yang"><td class="lineno">355</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;initCelObjDataMap.put(&quot;ObservationChilds&quot;, observations);</tt></td></tr>
+<tr class="yin"><td class="lineno">356</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// observationObjects</tt></td></tr>
+<tr class="yang"><td class="lineno">357</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; observations.length; i++) {</tt></td></tr>
+<tr class="yin"><td class="lineno">358</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// observations</tt></td></tr>
+<tr class="yang"><td class="lineno">359</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;initObsDataMap = (HashMap&lt;String, Object&gt;) observations[i]</tt></td></tr>
+<tr class="yin"><td class="lineno">360</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.getDataMap().clone();</tt></td></tr>
+<tr class="yang"><td class="lineno">361</td><td class="hits">10</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;obsInitDataList.add(initObsDataMap);</tt></td></tr>
+<tr class="yin"><td class="lineno">362</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">363</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// comps</tt></td></tr>
+<tr class="yin"><td class="lineno">364</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; allComps.length; i++) {</tt></td></tr>
+<tr class="yang"><td class="lineno">365</td><td class="hits">413</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compsInputValueMap = (HashMap&lt;String, Object&gt;) allComps[i]</tt></td></tr>
+<tr class="yin"><td class="lineno">366</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.getDataMap().clone();</tt></td></tr>
+<tr class="yang"><td class="lineno">367</td><td class="hits">816</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compsInitDataList.add(compsInputValueMap);</tt></td></tr>
+<tr class="yin"><td class="lineno">368</td><td class="hits">408</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">369</td><td class="hits">408</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return saveInitValues;</tt></td></tr>
+<tr class="yin"><td class="lineno">370</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">371</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">372</td><td class="hits">13</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">373</td><td class="hits">16</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* save changed Values</tt></td></tr>
+<tr class="yin"><td class="lineno">374</td><td class="hits">8</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">375</td><td class="hits">8</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public boolean commitChanges() {</tt></td></tr>
+<tr class="yin"><td class="lineno">376</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// TODO atomic with clones and commit or Undo?!</tt></td></tr>
+<tr class="yang"><td class="lineno">377</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boolean saveChanges = false;</tt></td></tr>
+<tr class="yin"><td class="lineno">378</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// celOBJ</tt></td></tr>
+<tr class="yang"><td class="lineno">379</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// loop over celObj.dataMap and save changes ??</tt></td></tr>
+<tr class="yin"><td class="lineno">380</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// panel.getTextFields</tt></td></tr>
+<tr class="yang"><td class="lineno">381</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//writeChanges to DB</tt></td></tr>
+<tr class="yin"><td class="lineno">382</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; allComps.length; i++) {</tt></td></tr>
+<tr class="yang"><td class="lineno">383</td><td class="hits">&nbsp;</td><td class="code"><tt>//            updateRow()</tt></td></tr>
+<tr class="yin"><td class="lineno">384</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;allComps[i].getID(): &quot;+allComps[i].getID());</tt></td></tr>
+<tr class="highlight"><td class="lineno">385</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;allComps[i].updateDBRow();</tt></td></tr>
+<tr class="yin"><td class="lineno">386</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">387</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">388</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">389</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">390</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">391</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int j = 0; j &lt; textPanels.size(); j++) {</tt></td></tr>
+<tr class="highlight"><td class="lineno">392</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// if (textPanels.get(j).getName().equals(&quot;CelestialObject&quot;)) {</tt></td></tr>
+<tr class="highlight"><td class="lineno">393</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JPanel textPanel = textPanels.get(j);</tt></td></tr>
+<tr class="yin"><td class="lineno">394</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">395</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;celObjTextPanel.getName(): &quot;</tt></td></tr>
+<tr class="yin"><td class="lineno">396</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ textPanel.getName());</tt></td></tr>
+<tr class="yang"><td class="lineno">397</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;java.awt.Component[] panelComps = textPanel.getComponents();</tt></td></tr>
+<tr class="yin"><td class="lineno">398</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ToolBox.dumpHahsMap(observations[0].getCelObject().getDataMap());</tt></td></tr>
+<tr class="highlight"><td class="lineno">399</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; panelComps.length; i++) {</tt></td></tr>
+<tr class="yin"><td class="lineno">400</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (JTextField.class.isInstance(panelComps[i])) {</tt></td></tr>
+<tr class="highlight"><td class="lineno">401</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JTextField txtField = (JTextField) panelComps[i];</tt></td></tr>
+<tr class="yin"><td class="lineno">402</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;panelComps[i].getName(): &quot;</tt></td></tr>
+<tr class="highlight"><td class="lineno">403</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ txtField.getName());</tt></td></tr>
+<tr class="highlight"><td class="lineno">404</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">405</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (textPanel.getName().equals(&quot;Observation&quot;)) {</tt></td></tr>
+<tr class="highlight"><td class="lineno">406</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out</tt></td></tr>
+<tr class="highlight"><td class="lineno">407</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.println(&quot;Observation oldValue: &quot;</tt></td></tr>
+<tr class="highlight"><td class="lineno">408</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ currentObs.getDataMap().put(</tt></td></tr>
+<tr class="highlight"><td class="lineno">409</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;txtField.getName(),</tt></td></tr>
+<tr class="highlight"><td class="lineno">410</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;txtField.getText()));</tt></td></tr>
+<tr class="highlight"><td class="lineno">411</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">412</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">413</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (textPanel.getName().equals(&quot;CelestialObject&quot;)) {</tt></td></tr>
+<tr class="highlight"><td class="lineno">414</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;CelestialObject oldValue: &quot;</tt></td></tr>
+<tr class="highlight"><td class="lineno">415</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ observations[0].getCelObject().getDataMap()</tt></td></tr>
+<tr class="highlight"><td class="lineno">416</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.put(txtField.getName(),</tt></td></tr>
+<tr class="highlight"><td class="lineno">417</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;txtField.getText()));</tt></td></tr>
+<tr class="highlight"><td class="lineno">418</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">419</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">420</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">421</td><td class="hits">0</td><td class="code"><tt>//                ToolBox</tt></td></tr>
+<tr class="highlight"><td class="lineno">422</td><td class="hits">0</td><td class="code"><tt>//                        .dumpHahsMap(observations[0].getCelObject()</tt></td></tr>
+<tr class="highlight"><td class="lineno">423</td><td class="hits">0</td><td class="code"><tt>//                                .getDataMap());</tt></td></tr>
+<tr class="highlight"><td class="lineno">424</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">425</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//table-changes save the comps write all tableData to comps[]</tt></td></tr>
+<tr class="yin"><td class="lineno">426</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TableModel tableModel = tablePanel.getModel();</tt></td></tr>
+<tr class="yang"><td class="lineno">427</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//relies on same order of rows in tableModel  like in input (allComps) !</tt></td></tr>
+<tr class="yin"><td class="lineno">428</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; tableModel.getRowCount(); i++) {</tt></td></tr>
+<tr class="yang"><td class="lineno">429</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HashMap&lt;String, Object&gt; compDataMap = allComps[i].getDataMap();</tt></td></tr>
+<tr class="yin"><td class="lineno">430</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ToolBox.dumpHahsMap(compDataMap);</tt></td></tr>
+<tr class="yang"><td class="lineno">431</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int k = 0; k &lt; tableModel.getColumnCount(); k++) {</tt></td></tr>
+<tr class="yin"><td class="lineno">432</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;getColumnName: &quot;+tableModel.getColumnName(k));</tt></td></tr>
+<tr class="yang"><td class="lineno">433</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;getValueat: &quot;+tableModel.getValueAt(i, k));</tt></td></tr>
+<tr class="highlight"><td class="lineno">434</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compDataMap.put(tableModel.getColumnName(k), tableModel.getValueAt(i, k));</tt></td></tr>
+<tr class="yang"><td class="lineno">435</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">436</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ToolBox.dumpHahsMap(allComps[i].getDataMap());</tt></td></tr>
+<tr class="highlight"><td class="lineno">437</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} </tt></td></tr>
+<tr class="highlight"><td class="lineno">438</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">439</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// }</tt></td></tr>
+<tr class="highlight"><td class="lineno">440</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// observation</tt></td></tr>
+<tr class="highlight"><td class="lineno">441</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// comps</tt></td></tr>
+<tr class="highlight"><td class="lineno">442</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return saveChanges;</tt></td></tr>
+<tr class="yang"><td class="lineno">443</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">444</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">445</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public void tableChanged(TableModelEvent e) {</tt></td></tr>
+<tr class="yin"><td class="lineno">446</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int row = e.getFirstRow();</tt></td></tr>
+<tr class="yang"><td class="lineno">447</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int column = e.getColumn();</tt></td></tr>
+<tr class="yin"><td class="lineno">448</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TableModel model = (TableModel)e.getSource();</tt></td></tr>
+<tr class="yang"><td class="lineno">449</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String columnName = model.getColumnName(column);</tt></td></tr>
+<tr class="highlight"><td class="lineno">450</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object data = model.getValueAt(row, column);</tt></td></tr>
+<tr class="yang"><td class="lineno">451</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;tableChanged,columnName: &quot;+columnName);</tt></td></tr>
+<tr class="yin"><td class="lineno">452</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;tableChanged,getSource: &quot;);</tt></td></tr>
+<tr class="yang"><td class="lineno">453</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//wich MaserComponent to update</tt></td></tr>
+<tr class="highlight"><td class="lineno">454</td><td class="hits">0</td><td class="code"><tt>//            changedCompsData</tt></td></tr>
+<tr class="highlight"><td class="lineno">455</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setChangeFlag(true);</tt></td></tr>
+<tr class="highlight"><td class="lineno">456</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">457</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">458</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">459</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the changeFlag</tt></td></tr>
+<tr class="highlight"><td class="lineno">460</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">461</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public boolean isChangeFlag() {</tt></td></tr>
+<tr class="yin"><td class="lineno">462</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return changeFlag;</tt></td></tr>
+<tr class="highlight"><td class="lineno">463</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="highlight"><td class="lineno">464</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">465</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">466</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param changeFlag</tt></td></tr>
+<tr class="yang"><td class="lineno">467</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*            the changeFlag to set</tt></td></tr>
+<tr class="yin"><td class="lineno">468</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">469</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setChangeFlag(boolean changeFlag) {</tt></td></tr>
+<tr class="highlight"><td class="lineno">470</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.changeFlag = changeFlag;</tt></td></tr>
+<tr class="yang"><td class="lineno">471</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">472</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">473</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">474</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the allComps</tt></td></tr>
+<tr class="yang"><td class="lineno">475</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">476</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public MaserComponent[] getAllComps() {</tt></td></tr>
+<tr class="yang"><td class="lineno">477</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return allComps;</tt></td></tr>
+<tr class="yin"><td class="lineno">478</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">479</td><td class="hits">5</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">480</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">481</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param allObs the observations to get the Components from</tt></td></tr>
+<tr class="yin"><td class="lineno">482</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">483</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public MaserComponent[] getAllCompsFromObs(Observation[] allobs) {</tt></td></tr>
+<tr class="yin"><td class="lineno">484</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ArrayList&lt;MaserComponent&gt; allCompsFromObs=new ArrayList&lt;MaserComponent&gt;();</tt></td></tr>
+<tr class="highlight"><td class="lineno">485</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i = 0; i &lt; allobs.length; i++) {</tt></td></tr>
+<tr class="yin"><td class="lineno">486</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MaserComponent[] compsFromObs = allobs[i].getComponents();</tt></td></tr>
+<tr class="yang"><td class="lineno">487</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (compsFromObs!=null) {</tt></td></tr>
+<tr class="yin"><td class="lineno">488</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int j = 0; j &lt; compsFromObs.length; j++) {</tt></td></tr>
+<tr class="yang"><td class="lineno">489</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;allCompsFromObs.add(compsFromObs[j]);</tt></td></tr>
+<tr class="yin"><td class="lineno">490</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">491</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}            </tt></td></tr>
+<tr class="yin"><td class="lineno">492</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">493</td><td class="hits">413</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return  allCompsFromObs.toArray(new MaserComponent[allCompsFromObs.size()]);</tt></td></tr>
+<tr class="yin"><td class="lineno">494</td><td class="hits">408</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">495</td><td class="hits">408</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">496</td><td class="hits">12</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">497</td><td class="hits">8</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param allComps the allComps to set</tt></td></tr>
+<tr class="yin"><td class="lineno">498</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">499</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setAllComps(MaserComponent[] allComps) {</tt></td></tr>
+<tr class="yin"><td class="lineno">500</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.allComps = allComps;</tt></td></tr>
+<tr class="yang"><td class="lineno">501</td><td class="hits">5</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">502</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">503</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">504</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">505</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">506</td><td class="hits">&nbsp;</td><td class="code"><tt>}</tt></td></tr>
+</table>
+<p>
+<p class="navbar"><b><a href="http://jcoverage.com">jcoverage</a></b> | <a href="index.html">summary</a> | <a href="view.swing.html">package</a> | file
+<p>
+<table width="100%" cellpadding="0" cellspacing="0"><tr valign="top"><td>
+<p class="legalleft">
+this report was generated by version @product.version@ of jcoverage.<br>
+visit <a href="http://www.jcoverage.com">www.jcoverage.com</a> for updates.<br>
+</td><td>
+<p class="legalright">
+copyright &copy; 2003, jcoverage ltd. all rights reserved.<br>
+Java is a trademark of Sun Microsystems, Inc. in the United States and other countries.<br>
+</td></tr></table>
+
+</body>
+
+</html>

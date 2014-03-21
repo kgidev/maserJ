@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+   This is observation XM, which holds data fields descriped in observation.dtd.
+   These Files are Part of the Software-System Maser Visualition.
+   Maser-Variations per Object and Day 
+
+              * @author kaygalba mail@kaygalba.de
+ 			  * @timestamp 13.06.2007 10:48
+ 			  * @version 0.01
+
+    Further information about is available at the Project-Site:
+
+        http://...
+
+
+
+-->
+
+<!DOCTYPE Observation SYSTEM "test.dtd">
+
+<Observation>
+	<object>RX Boo</object>
+	<date unit="JD">2447929</date>
+	<RA unit="HOUR">14:24:11.6</RA>
+	<DEC unit="ARC">25.42.14</DEC>
+	<epoch>J2000</epoch>
+	<noise unit="rms">1.09</noise>
+	<interpolated>0</interpolated>
+
+	
+    <MaserData>
+        <id>1</id>
+        <xoffset unit="mas" test1="test">10</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">-4.8</velocity>
+        <intensity  unit="Jy">3.2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>
+    
+       <MaserData>
+        <id>2</id>
+        <xoffset unit="mas" test1="asf" test2="test2">20</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">-4.8</velocity>
+        <intensity  unit="Jy">3.634732</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>   <MaserData>
+        <id>3</id>
+        <xoffset unit="mas">30</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">aafds-4.8</velocity>
+        <intensity  unit="Jy">3.2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>   <MaserData>
+        <id>4</id>
+        <xoffset unit="mas">40</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">ffff-4.8</velocity>
+        <intensity  unit="Jy">3.2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>   <MaserData>
+        <id>5</id>
+        <xoffset unit="mas">50</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">-4.8</velocity>
+        <intensity  unit="Jy">3.2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>   <MaserData>
+        <id>6</id>
+        <xoffset unit="mas">60</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">-4.8</velocity>
+        <intensity  unit="Jy">3.2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>   <MaserData>
+        <id>7</id>
+        <xoffset unit="mas">70</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">adsf-4.8</velocity>
+        <intensity  unit="Jy">3.2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>   <MaserData>
+        <id>8</id>
+        <xoffset unit="mas">80</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">-4.8</velocity>
+        <intensity  unit="Jy">3.2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>   <MaserData>
+        <id>9</id>
+        <xoffset unit="mas">90</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">-4.8</velocity>
+        <intensity unit="Jy">3.fad2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>   <MaserData>
+        <id>10</id>
+        <xoffset unit="mas">100</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">-4.8</velocity>
+        <intensity unit="Jy">3.2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>
+ 
+</Observation>
+

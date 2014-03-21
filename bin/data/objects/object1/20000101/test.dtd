@@ -1,0 +1,86 @@
+<!-- DTD for Observation  XML 
+
+
+
+-->
+<!--
+    This is observation DTD, which defines the fields for observation.xml
+    These Files are Part of the Software-System Maser Visualition.
+    Maser-Variations per Object and Day 
+
+              * @author kaygalba <1galba@informatik.uni-hamburg.de>
+ 			  * @timestamp 12.07.2007 
+ 			  * @version 0.02
+
+    Further information about is available at the Project-Site:
+
+        http://...
+
+:TODO: Attributes Units: 
+
+<!ATTLIST date 
+	unit CDATA #IMPLIED>
+>
+
+-->
+
+
+
+<!--Globals: common Observation data-->
+<!ELEMENT Observation (telescope, object, date, RA, DEC, epoch, noise,  MaserData*)>
+
+
+<!ELEMENT telescope (#PCDATA)>	<!-- the observing telescope  -->
+
+
+<!ELEMENT object (#PCDATA)>	<!-- the observed Object -->
+
+<!ELEMENT date (#PCDATA)>	<!-- Observation date  -->
+ <!ATTLIST date 
+	unit CDATA #IMPLIED>
+
+<!ELEMENT RA (#PCDATA)>	<!-- Right Ascension measured in hours, minutes, seconds and millisecond-->
+<!ATTLIST RA 
+	unit CDATA #IMPLIED>
+
+<!ELEMENT DEC (#PCDATA)>	<!-- Observation Declination in degrees, minutes,seconds and milliarcsecond of arc.-->
+<!ATTLIST DEC
+	unit CDATA #IMPLIED>
+
+<!ELEMENT epoch (#PCDATA)>	<!-- Observation Julian epoch as reference to RA and DEC -->
+
+<!ELEMENT noise (#PCDATA)>	<!-- Observation noise in RMS-->
+<!ATTLIST noise 
+	unit CDATA #IMPLIED>
+
+
+<!--Row: data per Maser --> 
+<!ELEMENT MaserData (id, xoffset, yoffset, velocity, intensity, brightness)*>
+
+<!ELEMENT id (#PCDATA)>
+		<!-- row ID -->
+<!ELEMENT xoffset (#PCDATA)> 	<!-- X Offset from RA/DEC in milliarcsecond-->
+<!ATTLIST xoffset 
+	unit CDATA #IMPLIED
+	testAtt1 CDATA #IMPLIED
+	testAtt2 CDATA #IMPLIED
+	testAtt3 CDATA #IMPLIED
+	testAtt4 CDATA #IMPLIED>
+	
+<!ELEMENT yoffset (#PCDATA)> 	<!-- Y Offset from RA/DEC in milliarcsecond-->
+<!ATTLIST yoffset 
+	unit CDATA #IMPLIED>
+	
+<!ELEMENT velocity (#PCDATA)>	<!-- velocity in km/s-->
+<!ATTLIST velocity 
+	unit CDATA #IMPLIED>
+	
+<!ELEMENT intensity (#PCDATA)>	<!-- intensity in Jansky-->
+<!ATTLIST intensity 
+	unit CDATA #IMPLIED>
+	
+<!ELEMENT brightness (#PCDATA)> <!-- brightness im magnitudes-->
+<!ATTLIST brightness 
+	unit CDATA #IMPLIED>
+
+

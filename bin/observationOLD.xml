@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+   This is observation XM, which holds data fields descriped in observation.dtd.
+   These Files are Part of the Software-System Maser Visualition.
+   Maser-Variations per Object and Day 
+
+              * @author kaygalba <1galba@informatik.uni-hamburg.de>
+ 			  * @timestamp 13.06.2007 10:48
+ 			  * @version 0.01
+
+    Further information about is available at the Project-Site:
+
+        http://...
+
+
+
+-->
+
+<!DOCTYPE Observation SYSTEM "../../../../../conf/observation.dtd">
+
+<Observation>
+	<object>RX Boo</object>
+	<date>2447929</date>
+	<noise>1.09</noise>
+	
+    <MaserData>
+        <id>1</id>
+        <xcoord>90</xcoord>
+        <ycoord>-32</ycoord>
+        <velocity>-4.8</velocity>
+        <intensity>3.2</intensity>
+        <brightness>1267</brightness>
+    </MaserData>
+ 
+</Observation>
+

@@ -1,0 +1,544 @@
+<html>
+<head>
+<title>jcoverage details for view.ObservationImage</title><style>
+<!--
+body {
+background-color: white;
+}
+
+p {
+text-align: left;
+margin-top: 10pt;
+margin-bottom: 10pt;
+}
+
+p, h1, h2, h3, td, th, dt {
+font-family: verdana, arial, sans-serif;
+font-size: 10pt;
+line-height: 100%;
+margin-left: 0pt;
+}
+
+li {
+font-family: verdana, arial, sans-serif;
+font-size: 10pt;
+line-height: 100%;
+margin-left: 0pt;
+}
+
+h1 {
+font-size: 14pt;
+}
+
+h2 {
+font-size: 12pt;
+margin-top: 12pt;
+}
+
+pre {
+line-height: 100%;
+}
+
+tr.yin td {
+background: #f0f0f0;
+}
+
+tr.yin td {
+background: #f0f0f0;
+}
+
+tr.highlight td {
+background: #ffff44;
+}
+
+th {
+border-width: 1px 0px 1px 1px;
+border-color: black;
+border-style: solid;
+text-align: center;
+}
+
+th.remainder {
+border-width: 1px 1px 1px 1px;
+}
+
+td.lineno {
+border-width: 0px 0px 0px 1px;
+border-color: black;
+border-style: solid;
+text-align: right;
+}
+
+td.hits {
+border-width: 0px 0px 0px 1px;
+border-color: black;
+border-style: solid;
+text-align: right;
+}
+
+td.code {
+border-width: 0px 0px 0px 1px;
+border-color: black;
+border-style: solid;
+text-align: left;
+}
+
+td.coverage {
+text-align: right;
+}
+
+td.lines {
+text-align: right;
+}
+
+td.files {
+text-align: right;
+}
+
+.navbar {
+margin-top: 0pt;
+color: white;
+vertical-align: top;
+text-align: left;
+font-size: 10pt;
+margin-left: 0pt;
+background-color: green;
+padding: 2pt;
+padding-left: 4pt;
+line-height: 120%;
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+}
+
+.navbar a:visited {
+color: white;
+text-decoration: none;
+}
+
+.navbar a:link {
+color: white;
+text-decoration: none;
+}
+
+.navbar a:hover {
+color: white;
+text-decoration: none;
+}
+
+p.view a {
+color: #0000aa;
+text-decoration: none;
+}
+
+p.legalleft {
+font-size: 8pt;
+margin-top: 6pt;
+border-top: 1px solid black;
+color: #444444;
+text-align: left;
+}
+
+p.legalright {
+font-size: 8pt;
+margin-top: 6pt;
+border-top: 1px solid black;
+color: #444444;
+text-align: right;
+}
+
+a:link {
+color: #0000aa;
+text-decoration: none;
+}
+
+a:visited {
+color: #0000aa;
+text-decoration: none;
+}
+
+-->
+
+</style>
+
+</head>
+<body>
+<img src="http://jcoverage.com/images/shim@product.version@.gif" width="1" height="1">
+<p class="navbar"><b><a href="http://jcoverage.com">jcoverage</a></b> | <a href="index.html">summary</a> | <a href="view.html">package</a> | file
+<p>
+<h1>Coverage details for view.ObservationImage</h1><table border="0" cellpadding="2" cellspacing="0" width="85%">
+<tr><th>Line</th><th>Hits</th><th class="remainder">Source</th></tr>
+<tr class="yang"><td class="lineno">1</td><td class="hits">&nbsp;</td><td class="code"><tt>/**</tt></td></tr>
+<tr class="yin"><td class="lineno">2</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;* </tt></td></tr>
+<tr class="yang"><td class="lineno">3</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">4</td><td class="hits">&nbsp;</td><td class="code"><tt>package view;</tt></td></tr>
+<tr class="yang"><td class="lineno">5</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">6</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.Color;</tt></td></tr>
+<tr class="yang"><td class="lineno">7</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.Graphics2D;</tt></td></tr>
+<tr class="yin"><td class="lineno">8</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.image.BufferedImage;</tt></td></tr>
+<tr class="yang"><td class="lineno">9</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.image.ColorModel;</tt></td></tr>
+<tr class="yin"><td class="lineno">10</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.image.IndexColorModel;</tt></td></tr>
+<tr class="yang"><td class="lineno">11</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.awt.image.WritableRaster;</tt></td></tr>
+<tr class="yin"><td class="lineno">12</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.text.DecimalFormat;</tt></td></tr>
+<tr class="yang"><td class="lineno">13</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.text.SimpleDateFormat;</tt></td></tr>
+<tr class="yin"><td class="lineno">14</td><td class="hits">&nbsp;</td><td class="code"><tt>import java.util.Hashtable;</tt></td></tr>
+<tr class="yang"><td class="lineno">15</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">16</td><td class="hits">&nbsp;</td><td class="code"><tt>import controller.MaserJ;</tt></td></tr>
+<tr class="yang"><td class="lineno">17</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">18</td><td class="hits">&nbsp;</td><td class="code"><tt>import tools.MyImage;</tt></td></tr>
+<tr class="yang"><td class="lineno">19</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">20</td><td class="hits">&nbsp;</td><td class="code"><tt>/**</tt></td></tr>
+<tr class="yang"><td class="lineno">21</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;*</tt></td></tr>
+<tr class="yin"><td class="lineno">22</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">23</td><td class="hits">&nbsp;</td><td class="code"><tt>public class ObservationImage extends BufferedImage {</tt></td></tr>
+<tr class="yin"><td class="lineno">24</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">25</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected static DecimalFormat decimalFormat = new DecimalFormat( &quot;###,##0.0000&quot;);</tt></td></tr>
+<tr class="yin"><td class="lineno">26</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected static SimpleDateFormat celestialAngelFormat = </tt></td></tr>
+<tr class="yang"><td class="lineno">27</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new SimpleDateFormat(&quot;HH:mm:ss:SSS&quot;);</tt></td></tr>
+<tr class="yin"><td class="lineno">28</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">29</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;private static int imageType=MaserJ.BIMG_TYPE;    </tt></td></tr>
+<tr class="yin"><td class="lineno">30</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;private Graphics2D g2d=this.createGraphics();</tt></td></tr>
+<tr class="yang"><td class="lineno">31</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">32</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int width=super.getWidth();</tt></td></tr>
+<tr class="yang"><td class="lineno">33</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int height=super.getHeight();</tt></td></tr>
+<tr class="yin"><td class="lineno">34</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected Color bgColor=Color.WHITE;     //BackGroundColor</tt></td></tr>
+<tr class="yang"><td class="lineno">35</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected Color fgColor=Color.BLACK;     //ForeGroundColor</tt></td></tr>
+<tr class="yin"><td class="lineno">36</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int margin=25;</tt></td></tr>
+<tr class="yang"><td class="lineno">37</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int padding=2*margin;</tt></td></tr>
+<tr class="yin"><td class="lineno">38</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">39</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">40</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;//parts</tt></td></tr>
+<tr class="yang"><td class="lineno">41</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected BufferedImage gridImg;</tt></td></tr>
+<tr class="yin"><td class="lineno">42</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int gridImgX=0;</tt></td></tr>
+<tr class="yang"><td class="lineno">43</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int gridImgY=0;</tt></td></tr>
+<tr class="yin"><td class="lineno">44</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected BufferedImage colorCodeImg;</tt></td></tr>
+<tr class="yang"><td class="lineno">45</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int colorCodeImgX=575;</tt></td></tr>
+<tr class="yin"><td class="lineno">46</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int colorCodeImgY=padding;</tt></td></tr>
+<tr class="yang"><td class="lineno">47</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected BufferedImage celestialObjectTextImg;</tt></td></tr>
+<tr class="yin"><td class="lineno">48</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int celestialObjectTextImgX=650;</tt></td></tr>
+<tr class="yang"><td class="lineno">49</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int celestialObjectTextImgY=padding;</tt></td></tr>
+<tr class="yin"><td class="lineno">50</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public BufferedImage observationTextImg;</tt></td></tr>
+<tr class="yang"><td class="lineno">51</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int observationTextImgX=650;</tt></td></tr>
+<tr class="yin"><td class="lineno">52</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int observationTextImgY=300;</tt></td></tr>
+<tr class="yang"><td class="lineno">53</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected BufferedImage maserImg;</tt></td></tr>
+<tr class="yin"><td class="lineno">54</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int maserImgX=padding;</tt></td></tr>
+<tr class="yang"><td class="lineno">55</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;protected int maserImgY=padding;</tt></td></tr>
+<tr class="yin"><td class="lineno">56</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">57</td><td class="hits">391</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">58</td><td class="hits">391</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">59</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">60</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param width</tt></td></tr>
+<tr class="yang"><td class="lineno">61</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param height</tt></td></tr>
+<tr class="yin"><td class="lineno">62</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">63</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public ObservationImage(int width, int height) {</tt></td></tr>
+<tr class="yin"><td class="lineno">64</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super(width, height, imageType);</tt></td></tr>
+<tr class="yang"><td class="lineno">65</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d=this.createGraphics();</tt></td></tr>
+<tr class="yin"><td class="lineno">66</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">67</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">68</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">69</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">70</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param width</tt></td></tr>
+<tr class="yang"><td class="lineno">71</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param height</tt></td></tr>
+<tr class="yin"><td class="lineno">72</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">73</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public ObservationImage(int width, int height, BufferedImage gridImg,</tt></td></tr>
+<tr class="yin"><td class="lineno">74</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BufferedImage colorCodeImg, BufferedImage celestialObjectTextImg,</tt></td></tr>
+<tr class="yang"><td class="lineno">75</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BufferedImage observationTextImg, BufferedImage maserImg) {</tt></td></tr>
+<tr class="yin"><td class="lineno">76</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super(width, height, imageType);</tt></td></tr>
+<tr class="yang"><td class="lineno">77</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d=this.createGraphics();</tt></td></tr>
+<tr class="yin"><td class="lineno">78</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">79</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setGridImg(gridImg);</tt></td></tr>
+<tr class="yin"><td class="lineno">80</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setColorCodeImg(colorCodeImg);</tt></td></tr>
+<tr class="yang"><td class="lineno">81</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setCelestialObjectTextImg(celestialObjectTextImg);</tt></td></tr>
+<tr class="yin"><td class="lineno">82</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setObservationTextImg(observationTextImg);</tt></td></tr>
+<tr class="yang"><td class="lineno">83</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setMaserImg(maserImg);</tt></td></tr>
+<tr class="yin"><td class="lineno">84</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compose();</tt></td></tr>
+<tr class="yang"><td class="lineno">85</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">86</td><td class="hits">389</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">87</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">88</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* compose this Image from the parts</tt></td></tr>
+<tr class="yang"><td class="lineno">89</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">90</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void compose() {</tt></td></tr>
+<tr class="yang"><td class="lineno">91</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.setBackground(bgColor);</tt></td></tr>
+<tr class="yin"><td class="lineno">92</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g2d.clearRect(0, 0, width, height);</tt></td></tr>
+<tr class="yang"><td class="lineno">93</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boolean drawed=g2d.drawImage(gridImg, gridImgX, gridImgY, null);</tt></td></tr>
+<tr class="yin"><td class="lineno">94</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawed=g2d.drawImage(colorCodeImg, colorCodeImgX, colorCodeImgY, null);</tt></td></tr>
+<tr class="yang"><td class="lineno">95</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawed=g2d.drawImage(celestialObjectTextImg, celestialObjectTextImgX, celestialObjectTextImgY, null);</tt></td></tr>
+<tr class="yin"><td class="lineno">96</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawed=g2d.drawImage(observationTextImg, observationTextImgX, observationTextImgY, null);</tt></td></tr>
+<tr class="yang"><td class="lineno">97</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawed=g2d.drawImage(maserImg, maserImgX, maserImgY, null);</tt></td></tr>
+<tr class="yin"><td class="lineno">98</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">99</td><td class="hits">389</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">100</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;//getter &amp; setter</tt></td></tr>
+<tr class="yang"><td class="lineno">101</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">102</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">103</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the celestialObjectTextImg</tt></td></tr>
+<tr class="yin"><td class="lineno">104</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">105</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public BufferedImage getCelestialObjectTextImg() {</tt></td></tr>
+<tr class="yin"><td class="lineno">106</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return celestialObjectTextImg;</tt></td></tr>
+<tr class="yang"><td class="lineno">107</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">108</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">109</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">110</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param celestialObjectTextImg the celestialObjectTextImg to set</tt></td></tr>
+<tr class="yang"><td class="lineno">111</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">112</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setCelestialObjectTextImg(BufferedImage celestialObjectTextImg) {</tt></td></tr>
+<tr class="yang"><td class="lineno">113</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.celestialObjectTextImg = celestialObjectTextImg;</tt></td></tr>
+<tr class="yin"><td class="lineno">114</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">115</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">116</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">117</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the celestialObjectTextImgX</tt></td></tr>
+<tr class="yin"><td class="lineno">118</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">119</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getCelestialObjectTextImgX() {</tt></td></tr>
+<tr class="yin"><td class="lineno">120</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return celestialObjectTextImgX;</tt></td></tr>
+<tr class="yang"><td class="lineno">121</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">122</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">123</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">124</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param celestialObjectTextImgX the celestialObjectTextImgX to set</tt></td></tr>
+<tr class="yang"><td class="lineno">125</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">126</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setCelestialObjectTextImgX(int celestialObjectTextImgX) {</tt></td></tr>
+<tr class="yang"><td class="lineno">127</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.celestialObjectTextImgX = celestialObjectTextImgX;</tt></td></tr>
+<tr class="yin"><td class="lineno">128</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">129</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">130</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">131</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the celestialObjectTextImgY</tt></td></tr>
+<tr class="yin"><td class="lineno">132</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">133</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getCelestialObjectTextImgY() {</tt></td></tr>
+<tr class="yin"><td class="lineno">134</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return celestialObjectTextImgY;</tt></td></tr>
+<tr class="yang"><td class="lineno">135</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">136</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">137</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">138</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param celestialObjectTextImgY the celestialObjectTextImgY to set</tt></td></tr>
+<tr class="yang"><td class="lineno">139</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">140</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setCelestialObjectTextImgY(int celestialObjectTextImgY) {</tt></td></tr>
+<tr class="yang"><td class="lineno">141</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.celestialObjectTextImgY = celestialObjectTextImgY;</tt></td></tr>
+<tr class="yin"><td class="lineno">142</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">143</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">144</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">145</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the colorCodeImg</tt></td></tr>
+<tr class="yin"><td class="lineno">146</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">147</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public BufferedImage getColorCodeImg() {</tt></td></tr>
+<tr class="yin"><td class="lineno">148</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return colorCodeImg;</tt></td></tr>
+<tr class="yang"><td class="lineno">149</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">150</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">151</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">152</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param colorCodeImg the colorCodeImg to set</tt></td></tr>
+<tr class="yang"><td class="lineno">153</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">154</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setColorCodeImg(BufferedImage colorCodeImg) {</tt></td></tr>
+<tr class="yang"><td class="lineno">155</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.colorCodeImg = colorCodeImg;</tt></td></tr>
+<tr class="yin"><td class="lineno">156</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">157</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">158</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">159</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the colorCodeImgX</tt></td></tr>
+<tr class="yin"><td class="lineno">160</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">161</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getColorCodeImgX() {</tt></td></tr>
+<tr class="yin"><td class="lineno">162</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return colorCodeImgX;</tt></td></tr>
+<tr class="yang"><td class="lineno">163</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">164</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">165</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">166</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param colorCodeImgX the colorCodeImgX to set</tt></td></tr>
+<tr class="yang"><td class="lineno">167</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">168</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setColorCodeImgX(int colorCodeImgX) {</tt></td></tr>
+<tr class="yang"><td class="lineno">169</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.colorCodeImgX = colorCodeImgX;</tt></td></tr>
+<tr class="yin"><td class="lineno">170</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">171</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">172</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">173</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the colorCodeImgY</tt></td></tr>
+<tr class="yin"><td class="lineno">174</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">175</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getColorCodeImgY() {</tt></td></tr>
+<tr class="yin"><td class="lineno">176</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return colorCodeImgY;</tt></td></tr>
+<tr class="yang"><td class="lineno">177</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">178</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">179</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">180</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param colorCodeImgY the colorCodeImgY to set</tt></td></tr>
+<tr class="yang"><td class="lineno">181</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">182</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setColorCodeImgY(int colorCodeImgY) {</tt></td></tr>
+<tr class="yang"><td class="lineno">183</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.colorCodeImgY = colorCodeImgY;</tt></td></tr>
+<tr class="yin"><td class="lineno">184</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">185</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">186</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">187</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the gridImg</tt></td></tr>
+<tr class="yin"><td class="lineno">188</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">189</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public BufferedImage getGridImg() {</tt></td></tr>
+<tr class="yin"><td class="lineno">190</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return gridImg;</tt></td></tr>
+<tr class="yang"><td class="lineno">191</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">192</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">193</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">194</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param gridImg the gridImg to set</tt></td></tr>
+<tr class="yang"><td class="lineno">195</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">196</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setGridImg(BufferedImage gridImg) {</tt></td></tr>
+<tr class="yang"><td class="lineno">197</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.gridImg = gridImg;</tt></td></tr>
+<tr class="yin"><td class="lineno">198</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">199</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">200</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">201</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the gridImgX</tt></td></tr>
+<tr class="yin"><td class="lineno">202</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">203</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getGridImgX() {</tt></td></tr>
+<tr class="yin"><td class="lineno">204</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return gridImgX;</tt></td></tr>
+<tr class="yang"><td class="lineno">205</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">206</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">207</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">208</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param gridImgX the gridImgX to set</tt></td></tr>
+<tr class="yang"><td class="lineno">209</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">210</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setGridImgX(int gridImgX) {</tt></td></tr>
+<tr class="yang"><td class="lineno">211</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.gridImgX = gridImgX;</tt></td></tr>
+<tr class="yin"><td class="lineno">212</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">213</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">214</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">215</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the gridImgY</tt></td></tr>
+<tr class="yin"><td class="lineno">216</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">217</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getGridImgY() {</tt></td></tr>
+<tr class="yin"><td class="lineno">218</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return gridImgY;</tt></td></tr>
+<tr class="yang"><td class="lineno">219</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">220</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">221</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">222</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param gridImgY the gridImgY to set</tt></td></tr>
+<tr class="yang"><td class="lineno">223</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">224</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setGridImgY(int gridImgY) {</tt></td></tr>
+<tr class="yang"><td class="lineno">225</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.gridImgY = gridImgY;</tt></td></tr>
+<tr class="yin"><td class="lineno">226</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">227</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">228</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">229</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the height</tt></td></tr>
+<tr class="yin"><td class="lineno">230</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">231</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getHeight() {</tt></td></tr>
+<tr class="yin"><td class="lineno">232</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return height;</tt></td></tr>
+<tr class="yang"><td class="lineno">233</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">234</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">235</td><td class="hits">1568</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">236</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param height the height to set</tt></td></tr>
+<tr class="yang"><td class="lineno">237</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">238</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setHeight(int height) {</tt></td></tr>
+<tr class="yang"><td class="lineno">239</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.height = height;</tt></td></tr>
+<tr class="yin"><td class="lineno">240</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">241</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">242</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">243</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the maserImg</tt></td></tr>
+<tr class="yin"><td class="lineno">244</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">245</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public BufferedImage getMaserImg() {</tt></td></tr>
+<tr class="yin"><td class="lineno">246</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return maserImg;</tt></td></tr>
+<tr class="yang"><td class="lineno">247</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">248</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">249</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">250</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param maserImg the maserImg to set</tt></td></tr>
+<tr class="yang"><td class="lineno">251</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">252</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setMaserImg(BufferedImage maserImg) {</tt></td></tr>
+<tr class="yang"><td class="lineno">253</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maserImg = maserImg;</tt></td></tr>
+<tr class="yin"><td class="lineno">254</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">255</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">256</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">257</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the maserImgX</tt></td></tr>
+<tr class="yin"><td class="lineno">258</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">259</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getMaserImgX() {</tt></td></tr>
+<tr class="yin"><td class="lineno">260</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return maserImgX;</tt></td></tr>
+<tr class="yang"><td class="lineno">261</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">262</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">263</td><td class="hits">4</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">264</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param maserImgX the maserImgX to set</tt></td></tr>
+<tr class="yang"><td class="lineno">265</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">266</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setMaserImgX(int maserImgX) {</tt></td></tr>
+<tr class="yang"><td class="lineno">267</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maserImgX = maserImgX;</tt></td></tr>
+<tr class="yin"><td class="lineno">268</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">269</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">270</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">271</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the maserImgY</tt></td></tr>
+<tr class="yin"><td class="lineno">272</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">273</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getMaserImgY() {</tt></td></tr>
+<tr class="yin"><td class="lineno">274</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return maserImgY;</tt></td></tr>
+<tr class="yang"><td class="lineno">275</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">276</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">277</td><td class="hits">4</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">278</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param maserImgY the maserImgY to set</tt></td></tr>
+<tr class="yang"><td class="lineno">279</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">280</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setMaserImgY(int maserImgY) {</tt></td></tr>
+<tr class="yang"><td class="lineno">281</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.maserImgY = maserImgY;</tt></td></tr>
+<tr class="yin"><td class="lineno">282</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">283</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">284</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">285</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the observationTextImg</tt></td></tr>
+<tr class="yin"><td class="lineno">286</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">287</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public BufferedImage getObservationTextImg() {</tt></td></tr>
+<tr class="yin"><td class="lineno">288</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return observationTextImg;</tt></td></tr>
+<tr class="yang"><td class="lineno">289</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">290</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">291</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">292</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param observationTextImg the observationTextImg to set</tt></td></tr>
+<tr class="yang"><td class="lineno">293</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">294</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setObservationTextImg(BufferedImage observationTextImg) {</tt></td></tr>
+<tr class="yang"><td class="lineno">295</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.observationTextImg = observationTextImg;</tt></td></tr>
+<tr class="yin"><td class="lineno">296</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">297</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yin"><td class="lineno">298</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yang"><td class="lineno">299</td><td class="hits">389</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the observationTextImgX</tt></td></tr>
+<tr class="yin"><td class="lineno">300</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">301</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getObservationTextImgX() {</tt></td></tr>
+<tr class="yin"><td class="lineno">302</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return observationTextImgX;</tt></td></tr>
+<tr class="yang"><td class="lineno">303</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">304</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">305</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">306</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param observationTextImgX the observationTextImgX to set</tt></td></tr>
+<tr class="yang"><td class="lineno">307</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">308</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setObservationTextImgX(int observationTextImgX) {</tt></td></tr>
+<tr class="yang"><td class="lineno">309</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.observationTextImgX = observationTextImgX;</tt></td></tr>
+<tr class="yin"><td class="lineno">310</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">311</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">312</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">313</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the observationTextImgY</tt></td></tr>
+<tr class="yin"><td class="lineno">314</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">315</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public int getObservationTextImgY() {</tt></td></tr>
+<tr class="yin"><td class="lineno">316</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return observationTextImgY;</tt></td></tr>
+<tr class="yang"><td class="lineno">317</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">318</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="yang"><td class="lineno">319</td><td class="hits">2</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">320</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param observationTextImgY the observationTextImgY to set</tt></td></tr>
+<tr class="yang"><td class="lineno">321</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">322</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setObservationTextImgY(int observationTextImgY) {</tt></td></tr>
+<tr class="yang"><td class="lineno">323</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.observationTextImgY = observationTextImgY;</tt></td></tr>
+<tr class="yin"><td class="lineno">324</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">325</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">326</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">327</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the bgColor</tt></td></tr>
+<tr class="yin"><td class="lineno">328</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">329</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public Color getBgColor() {</tt></td></tr>
+<tr class="yin"><td class="lineno">330</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return bgColor;</tt></td></tr>
+<tr class="yang"><td class="lineno">331</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">332</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">333</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">334</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param bgColor the bgColor to set</tt></td></tr>
+<tr class="yang"><td class="lineno">335</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">336</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setBgColor(Color bgColor) {</tt></td></tr>
+<tr class="yang"><td class="lineno">337</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.bgColor = bgColor;</tt></td></tr>
+<tr class="yin"><td class="lineno">338</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">339</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">340</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="highlight"><td class="lineno">341</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @return the fgColor</tt></td></tr>
+<tr class="yin"><td class="lineno">342</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yang"><td class="lineno">343</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public Color getFgColor() {</tt></td></tr>
+<tr class="yin"><td class="lineno">344</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return fgColor;</tt></td></tr>
+<tr class="yang"><td class="lineno">345</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yin"><td class="lineno">346</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">347</td><td class="hits">0</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;/**</tt></td></tr>
+<tr class="yin"><td class="lineno">348</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* @param fgColor the fgColor to set</tt></td></tr>
+<tr class="yang"><td class="lineno">349</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</tt></td></tr>
+<tr class="yin"><td class="lineno">350</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;public void setFgColor(Color fgColor) {</tt></td></tr>
+<tr class="yang"><td class="lineno">351</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.fgColor = fgColor;</tt></td></tr>
+<tr class="yin"><td class="lineno">352</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;}</tt></td></tr>
+<tr class="yang"><td class="lineno">353</td><td class="hits">&nbsp;</td><td class="code"><tt>&nbsp;&nbsp;&nbsp;&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">354</td><td class="hits">0</td><td class="code"><tt>&nbsp;</tt></td></tr>
+<tr class="highlight"><td class="lineno">355</td><td class="hits">0</td><td class="code"><tt>}</tt></td></tr>
+</table>
+<p>
+<p class="navbar"><b><a href="http://jcoverage.com">jcoverage</a></b> | <a href="index.html">summary</a> | <a href="view.html">package</a> | file
+<p>
+<table width="100%" cellpadding="0" cellspacing="0"><tr valign="top"><td>
+<p class="legalleft">
+this report was generated by version @product.version@ of jcoverage.<br>
+visit <a href="http://www.jcoverage.com">www.jcoverage.com</a> for updates.<br>
+</td><td>
+<p class="legalright">
+copyright &copy; 2003, jcoverage ltd. all rights reserved.<br>
+Java is a trademark of Sun Microsystems, Inc. in the United States and other countries.<br>
+</td></tr></table>
+
+</body>
+
+</html>

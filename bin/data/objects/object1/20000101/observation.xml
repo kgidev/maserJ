@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+   This is observation XM, which holds data fields descriped in observation.dtd.
+   These Files are Part of the Software-System Maser Visualition.
+   Maser-Variations per Object and Day 
+
+              * @author kaygalba mail@kaygalba.de
+ 			  * @timestamp 13.06.2007 10:48
+ 			  * @version 0.01
+
+    Further information about is available at the Project-Site:
+
+        http://...
+
+
+
+-->
+ 
+<!DOCTYPE Observation SYSTEM "../../../../../conf/observation.dtd">
+
+<Observation>
+	<telescope>Effelsberg</telescope>
+	<object>RX Boo</object>
+	<date unit="JD">2447929</date>
+	<RA unit="HOUR">14:24:11.6</RA>
+	<DEC unit="ARC">25.42.14</DEC>
+	<epoch>J2000</epoch>
+	<noise unit="rms">1.09</noise>
+	<interpolated>false</interpolated>
+
+	
+    <MaserData>
+        <id>1</id>
+        <xoffset unit="mas">90</xoffset>
+        <yoffset unit="mas">-32</yoffset>
+        <velocity unit="km/s">-4.8</velocity>
+        <intensity  unit="Jy">3.2</intensity>
+        <brightness unit="m">1267</brightness>
+    </MaserData>
+ 
+</Observation>
+

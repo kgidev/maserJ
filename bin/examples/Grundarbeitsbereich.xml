@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-workspace application-version="5.0" build-number="384">
+<PaletteWorkspace FeatureSet="256" version="2.0">
+<TabGroupCluster NeverShown="true" x="30" y="30" closed="true">
+<TabGroup activeTab="56595" closed="false">
+</TabGroup>
+</TabGroupCluster>
+<Dock dockLocation="top">
+<DockedControlBar closed="true" NeverShown="true">
+<Panel name="PMTool Bar" id="105473" detailLevel="0" closed="true">
+<ControlSet id="105522" visible="true">
+</ControlSet>
+</Panel>
+</DockedControlBar>
+<DockedControlBar closed="false">
+<Panel name="Control Strip" id="70913" detailLevel="0" closed="false">
+<ControlSet id="30255" visible="true">
+</ControlSet>
+<ControlSet id="30256" visible="true">
+</ControlSet>
+<ControlSet id="30210" visible="true">
+</ControlSet>
+<ControlSet id="70936" visible="true">
+</ControlSet>
+<ControlSet id="11035" visible="true">
+</ControlSet>
+<ControlSet id="67853" visible="true">
+</ControlSet>
+<ControlSet id="13737" visible="true">
+</ControlSet>
+<ControlSet id="113362" visible="true">
+</ControlSet>
+<ControlSet id="70923" visible="true">
+</ControlSet>
+<ControlStripOptions kTransformXYWHControlStripName="true" kTransformScaleRotateControlStripName="true" kFlipRotateControlStripName="true" kSelectContainerContentControlStripName="false" kStrokeControlStripName="true" kXPUIControlStripName="false" kTextWrapControlStripName="false" kObjectStyleControlStripName="false" kFrameFittingObjectControlStripName="false" kTextFrameOptionsControlStripName="false" kFrameFittingTextControlStripName="false" kAlignControlStripName="true" kDistributeControlStripName="false" kCharacterFontsControlStripName="true" kCharacterAttributesControlStripName="true" kCharacterKerningControlStripName="false" kCharacterScalingControlStripName="false" kCharacterStyleControlStripName="false" kParagraphAlignmentControlStripName="true" kParagraphIndentsControlStripName="true" kParagraphSpacingControlStripName="true" kBulletsNumberingControlStripName="true" kParagraphStyleControlStripName="false" kBaselineGridControlStripName="false" kCursorPositionControlStripName="false" kTableCellAlignmentControlStripName="true" kTableVerticalAlignmentControlStripName="true" kTableRowsColumnsControlStripName="true" kTableMergeUnmergeControlStripName="true" kTableStrokeControlStripName="true" kTableStyleControlStripName="false" kTableCellOptionsControlStripName="false" kTableInsetsControlStripName="false" kQuickApplyControlStripName="false" kProjectBridgeControlStripName="true">
+</ControlStripOptions>
+</Panel>
+</DockedControlBar>
+</Dock>
+<Dock dockLocation="bottom">
+</Dock>
+<Dock dockLocation="left">
+<DockedToolbar toolbarShape="verticalNarrow" closed="false">
+<Panel id="4353" closed="false">
+</Panel>
+</DockedToolbar>
+</Dock>
+<Dock dockLocation="right">
+<TabPane tabPaneMode="icon" widthIconMode="98" tabPaneLayoutMode="autoFlow">
+<TabGroup activeTab="19230" closed="false">
+<Panel name="Pages" id="6199" minimized="false" width="207" height="210" constrainedWidth="207" constrainedHeight="210" detailLevel="1" closed="false">
+<PagesPanelOptions iconSize="medium" masterIconSize="small" pagesOnTop="false" verticalView="true" masterVerticalView="true" fixedSize="false" masterFixedSize="true" pagesThumbnails="true" mastersThumbnails="true" splitterPosition="57">
+</PagesPanelOptions>
+</Panel>
+<Panel name="Links" id="19230" minimized="false" width="207" height="94" constrainedWidth="207" constrainedHeight="274" detailLevel="1" listBoxDetailLevel="0" closed="false">
+<LinksPanelOptions sortBy="0">
+</LinksPanelOptions>
+</Panel>
+</TabGroup>
+<TabGroup activeTab="26901" closed="false">
+<Panel name="Character" id="26901" minimized="false" width="207" height="172" constrainedWidth="207" constrainedHeight="172" detailLevel="1" closed="false">
+<ControlSet id="27048" visible="true">
+</ControlSet>
+<ControlSet id="27049" visible="true">
+</ControlSet>
+<ControlSet id="27050" visible="true">
+</ControlSet>
+<ControlSet id="27051" visible="true">
+</ControlSet>
+</Panel>
+<Panel name="Paragraph" id="27162" minimized="false" width="207" height="149" constrainedWidth="207" constrainedHeight="149" detailLevel="1" closed="false">
+<ControlSet id="27297" visible="true">
+</ControlSet>
+<ControlSet id="27298" visible="true">
+</ControlSet>
+<ControlSet id="27299" visible="true">
+</ControlSet>
+<ControlSet id="27300" visible="true">
+</ControlSet>
+</Panel>
+</TabGroup>
+<TabGroup activeTab="67841" closed="false">
+<Panel name="Stroke" id="11035" minimized="false" width="207" height="30" constrainedWidth="207" constrainedHeight="30" detailLevel="0" closed="false">
+</Panel>
+<Panel name="Swatches" id="16385" minimized="false" width="207" height="119" constrainedWidth="207" constrainedHeight="119" detailLevel="0" listBoxDetailLevel="0" closed="false">
+<ControlSet id="16496" visible="true">
+</ControlSet>
+<SwatchesPanelOptions displayFilter="0" colorViewStyle="16388" gradientViewStyle="16388" bothViewStyle="16388">
+</SwatchesPanelOptions>
+</Panel>
+<Panel name="TransparencyPaletteName" id="67841" minimized="false" width="207" height="144" constrainedWidth="207" constrainedHeight="144" detailLevel="1" closed="false">
+<EffectsPanelOptions effectsTargetsExpanded="true">
+</EffectsPanelOptions>
+</Panel>
+</TabGroup>
+</TabPane>
+</Dock>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="47911" closed="false">
+<Panel name="Notes" id="47911" minimized="false" width="206" height="217" constrainedWidth="206" constrainedHeight="217" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="104961" closed="false">
+<Panel name="Assignments" id="104961" minimized="false" width="207" height="77" constrainedWidth="207" constrainedHeight="77" detailLevel="1" closed="false">
+<ControlSet id="104964" visible="true">
+</ControlSet>
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="78603" closed="false">
+<Panel name="Tag_PanelName" id="78603" minimized="false" width="222" height="140" constrainedWidth="222" constrainedHeight="140" detailLevel="1" listBoxDetailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="21249" closed="false">
+<Panel name="SP_Story" id="21249" minimized="false" width="207" height="47" constrainedWidth="207" constrainedHeight="47" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="53519" closed="false">
+<Panel name="GlyphPanelTitle" id="53519" minimized="false" width="335" height="251" constrainedWidth="335" constrainedHeight="251" detailLevel="1" closed="false">
+<GlyphPanelOptions gridSize="32" glyphSortOrder="UnicodeOrder">
+</GlyphPanelOptions>
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="52229" closed="false">
+<Panel name="Script_PanelName" id="52229" minimized="false" width="207" height="95" constrainedWidth="207" constrainedHeight="95" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="78850" closed="false">
+<Panel name="Script Tag" id="78850" minimized="false" width="222" height="195" constrainedWidth="222" constrainedHeight="195" detailLevel="1" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="108033" closed="false">
+<Panel name="DataMergePanelName" id="108033" minimized="false" width="207" height="145" constrainedWidth="207" constrainedHeight="145" detailLevel="1" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="30254" closed="false">
+<Panel name="Transform" id="30254" minimized="false" width="207" height="98" constrainedWidth="207" constrainedHeight="98" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="13583" closed="false">
+<Panel name="Text Wrap" id="13583" minimized="false" width="207" height="78" constrainedWidth="207" constrainedHeight="78" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="16641" closed="false">
+<Panel name="Navigator" id="16641" minimized="false" width="207" height="100" constrainedWidth="207" constrainedHeight="100" detailLevel="0" closed="false">
+<NavigatorPanelOptions viewActiveSpread="true">
+</NavigatorPanelOptions>
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="78081" closed="false">
+<Panel name="Index" id="78081" minimized="false" width="222" height="327" constrainedWidth="222" constrainedHeight="327" detailLevel="1" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="79361" closed="false">
+<Panel name="Hyperlinks" id="79361" minimized="false" width="207" height="158" constrainedWidth="207" constrainedHeight="158" detailLevel="1" listBoxDetailLevel="0" closed="false">
+<HyperlinkPanelOptions sortBy="0">
+</HyperlinkPanelOptions>
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="95493" closed="false">
+<Panel name="Bookmark_PanelName" id="95493" minimized="false" width="222" height="117" constrainedWidth="222" constrainedHeight="117" detailLevel="1" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="25871" closed="false">
+<Panel name="Align" id="25871" minimized="false" width="207" height="128" constrainedWidth="207" constrainedHeight="128" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="83569" closed="false">
+<Panel name="$$$/Panel/States" id="83569" minimized="false" width="221" height="224" constrainedWidth="221" constrainedHeight="224" detailLevel="1" listBoxDetailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="68097" closed="false">
+<Panel name="kTrapStyles" id="68097" minimized="false" width="207" height="138" constrainedWidth="207" constrainedHeight="138" detailLevel="1" listBoxDetailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="71937" closed="false">
+<Panel name="Separations Preview" id="71937" minimized="false" width="207" height="141" constrainedWidth="207" constrainedHeight="141" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="71956" closed="false">
+<Panel name="Flattening Preview" id="71956" minimized="false" width="207" height="114" constrainedWidth="207" constrainedHeight="114" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="11031" closed="false">
+<Panel name="Attributes" id="11031" minimized="false" width="207" height="45" constrainedWidth="207" constrainedHeight="45" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="99625" closed="false">
+<Panel name="Pathfinder" id="99625" minimized="false" width="207" height="110" constrainedWidth="207" constrainedHeight="110" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="18464" closed="false">
+<Panel name="Layers" id="18464" minimized="false" width="222" height="118" constrainedWidth="222" constrainedHeight="118" detailLevel="1" listBoxDetailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="113153" closed="false">
+<Panel name="ObjStylesTreeViewPanelName" id="113153" minimized="false" width="222" height="138" constrainedWidth="222" constrainedHeight="138" detailLevel="1" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="24065" closed="false">
+<Panel name="Gradient" id="24065" minimized="false" width="207" height="46" constrainedWidth="207" constrainedHeight="46" detailLevel="0" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="8465" closed="false">
+<Panel name="Character Styles" id="8465" minimized="false" width="207" height="78" constrainedWidth="207" constrainedHeight="78" detailLevel="1" listBoxDetailLevel="0" closed="false">
+<ControlSet id="8474" visible="true">
+</ControlSet>
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="8466" closed="false">
+<Panel name="Paragraph Styles" id="8466" minimized="false" width="207" height="378" constrainedWidth="207" constrainedHeight="378" detailLevel="1" listBoxDetailLevel="0" closed="false">
+<ControlSet id="8478" visible="true">
+</ControlSet>
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="132096" closed="false">
+<Panel name="TableStyles" id="132096" minimized="false" width="222" height="138" constrainedWidth="222" constrainedHeight="138" detailLevel="1" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="132112" closed="false">
+<Panel name="CellStyles" id="132112" minimized="false" width="207" height="98" constrainedWidth="207" constrainedHeight="98" detailLevel="1" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="67125" closed="false">
+<Panel name="kTablePanelTitle" id="67125" minimized="false" width="207" height="160" constrainedWidth="207" constrainedHeight="160" detailLevel="0" closed="false">
+<ControlSet id="67304" visible="true">
+</ControlSet>
+<ControlSet id="67305" visible="true">
+</ControlSet>
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="89089" closed="false">
+<Panel name="Info" id="89089" minimized="false" width="207" height="134" constrainedWidth="207" constrainedHeight="134" detailLevel="2" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+<TabGroupCluster NeverShown="true" x="945" y="585" closed="true">
+<TabGroup activeTab="29241" closed="false">
+<Panel name="Color" id="29241" minimized="false" width="207" height="112" constrainedWidth="207" constrainedHeight="112" detailLevel="1" closed="false">
+</Panel>
+</TabGroup>
+</TabGroupCluster>
+</PaletteWorkspace>
+<menu-set platform="mac" file-version="1" application-version="5.0" build-number="384" name="InDesign Defaults" is-preset="false">
+	<hidden-submenu-list>
+		<hidden-submenu>
+			<path value="Main:&amp;File:PDFPopoutMenuItem"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;File:DocStylePopoutMenuItem"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;File:PrStPopoutMenuItem"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Edit:Transparency Blend Space"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Edit:kInCopyMenu:Add All &amp;Graphics to Assignment"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Edit:kInCopyMenu:Add All Sto&amp;ries to Assignment"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Edit:kInCopyMenu:Add &amp;Layer to Assignment"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Type:CCase Menu"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Type:Path T&amp;ype"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Type:Text Variables"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Type:Insert White Space"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Type:Insert Break Menu"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:Transform Again"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:SelectObjectMenu"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:Anchored Object Menu"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:$$$/Menu/Interactive"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:Compound Paths"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:Paths Menu"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:Pathfi&amp;nder"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:Convert Shape"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:Displa&amp;y"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:kTablesMenuTable_&amp;:kTablesMenuConvert_&amp;"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;View:kProof_Setup_Menu"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;View:S&amp;tructure"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;View:Story Editor"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Window:WindowsMenuScriptingItem"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Window:InteractiveSubmenu"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Window:OutPrv_WinMenu"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Type:Insert Special Character:SpecialOther"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Type:Text Variables Menu Item"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;File:ExportCrossMediaSubmenu"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Type:Insert Special Character:SpecialQuotes"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Type:Insert Special Character:SpecialHyphensDashes"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:&amp;Transform Again"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:&amp;Content"></path>
+		</hidden-submenu>
+		<hidden-submenu>
+			<path value="Main:&amp;Object:ClippingPathSub"></path>
+		</hidden-submenu>
+	</hidden-submenu-list>
+	<hidden-menuitem-list>
+		<hidden-menuitem>
+			<action-id value="0x106" name="KBSCE File menu:Save a Copy..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1333c" name="KBSCE File menu:File_ImportXML"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x12601" name="KBSCE File menu:File Information..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x9c01" name="KBSCE File menu:P&amp;reflight..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x9c02" name="KBSCE File menu:Packa&amp;ge..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d2dd" name="KBSCE File menu:PrintBooklet"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x128" name="KBSCE Edit menu:Paste&amp;Unformatted"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x112" name="KBSCE Edit menu:Paste Into"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x111" name="KBSCE Edit menu:Paste in Place"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x113" name="KBSCE Edit menu:&amp;Duplicate"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xaa01" name="KBSCE Edit menu:Step and Repeat..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x4907" name="KBSCE Edit menu:Find &amp;Next"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10914" name="KBSCE Edit menu:Flattener Styles..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x7e06" name="KBSCE Edit menu:kColor_Settings..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x7e0a" name="KBSCE Edit menu:kAssign_Profiles..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x7e09" name="KBSCE Edit menu:kConvert_to_Profile..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10c01" name="KBSCE Edit menu:ShortcutsMenuItem"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1645d" name="KBSCE Edit menu:UICust_Menus"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x4301" name="KBSCE Edit menu: Spelling: :Edit Dictionary..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1da07" name="KBSCE Edit menu: Spelling: :Auto Correct"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x18f0c" name="KBSCE Edit menu:Submit All Stories in InDesign"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x16460" name="KBSCE Apple menu:Preferences: :InterfacePrefsMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x3101" name="KBSCE Apple menu:Preferences: :Type..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x3104" name="KBSCE Apple menu:Preferences: :Advanced Type..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x3102" name="KBSCE Apple menu:Preferences: :Composition..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x5f03" name="KBSCE Apple menu:Preferences: :Units &amp;&amp; Increments..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x5f01" name="KBSCE Apple menu:Preferences: :Grids..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x5f02" name="KBSCE Apple menu:Preferences: :Guides &amp;&amp; Pasteboard..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x4302" name="KBSCE Apple menu:Preferences: :Dictionary..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1da05" name="KBSCE Apple menu:Preferences: :&amp;Spelling..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1da08" name="KBSCE Apple menu:Preferences: :Auto Correct..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x18001" name="KBSCE Apple menu:Preferences: :Notes..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xf401" name="KBSCE Apple menu:Preferences: :StoryEditorDisplayPrefsMenu..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x13201" name="KBSCE Apple menu:Preferences: :Display Performance..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x7e1b" name="KBSCE Apple menu:Preferences: :kAppearanceOfBlackDots"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x9903" name="KBSCE Apple menu:Preferences: :kFileHandling..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x17301" name="KBSCE Edit menu: InCopy: Export: :kExportLayerToIC"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x17303" name="KBSCE Edit menu: InCopy: Export: :kExportAllStoriesToIC"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x17305" name="KBSCE Edit menu: InCopy: Export: :kExportAllGraphicsToIC"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x17306" name="KBSCE Edit menu: InCopy: Export: :kExportAllItemsToIC"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d030" name="KBSCE Layout menu:Ruler Guides..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x5401" name="KBSCE Layout menu:Create Guides..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x7101" name="KBSCE Layout menu:Layout Adjustment..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d022" name="KBSCE Layout menu:Ne&amp;xt Spread"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d021" name="KBSCE Layout menu:Pr&amp;evious Spread"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x5d0a" name="KBSCE Layout menu:Section Options..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x11702" name="KBSCE Layout menu:Table of Contents..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x11712" name="KBSCE Layout menu:Update Table of Content"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x11701" name="KBSCE Layout menu:Table of Contents Styles..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x5f1a" name="KBSCE Layout menu: Pages: :Add New Page"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1815" name="KBSCE Palette Menus: Pages: :kMovePageMenuString"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1805" name="KBSCE Palette Menus: Pages: :Duplicate Spread"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x180a" name="KBSCE Palette Menus: Pages: :Apply Master to Pages..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xd101" name="KBSCE Window menu: Type &amp; Tables: :&amp;Insert Glyphs_menu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x5301" name="KBSCE Window menu: Type &amp; Tables: :&amp;Story"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xefdd" name="KBSCE Type menu:Create Outlines menu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xb81e" name="KBSCE Type menu:InsertSpecial Footnote"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x3106" name="KBSCE Type menu:Footnote Settings..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1a705" name="KBSCE Type menu: Bulleted &amp; Numbered Lists: :Cmd_ConvertBNToText"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d37c" name="KBSCE Type menu: Insert Special Character: Markers: :Insert next page number"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d37b" name="KBSCE Type menu: Insert Special Character: Markers: :Insert previous page number"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d322" name="KBSCE Type menu: Insert Special Character: Markers: :Insert section marker"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d3eb" name="KBSCE Type menu: Insert Special Character: Markers: :InsertSpecial FootnoteNum"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d31f" name="KBSCE Type menu: Insert Special Character: Hyphens and Dashes: :Insert discretionary hyphen"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d323" name="KBSCE Type menu: Insert Special Character: Hyphens and Dashes: :Insert non-breaking hyphen"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d330" name="KBSCE Type menu: Insert Special Character: Quotation Marks: :Insert LDQ"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d331" name="KBSCE Type menu: Insert Special Character: Quotation Marks: :Insert RDQ"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d332" name="KBSCE Type menu: Insert Special Character: Quotation Marks: :Insert LSQ"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d333" name="KBSCE Type menu: Insert Special Character: Quotation Marks: :Insert RSQ"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d392" name="KBSCE Type menu: Insert Special Character: Other: :Insert Tab"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d379" name="KBSCE Type menu: Insert Special Character: Other: :Right margin tab"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d37a" name="KBSCE Type menu: Insert Special Character: Other: :Indent to here"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d3c5" name="KBSCE Type menu: Insert Special Character: Other: :Insert break run-in style"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x2c28" name="KBSCE Object menu:&amp;Lock Position"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x2c29" name="KBSCE Object menu:Unloc&amp;k Position"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x2b05" name="KBSCE Object menu:Corner Effects..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x9401" name="KBSCE Object menu:kObjectLayerOptionsDots"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x7e03" name="KBSCE Object menu:Image Color Settings..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d012" name="KBSCE Object menu: Transform: :S&amp;hear..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d01b" name="KBSCE Object menu: Transform: :Rotate 180deg Menu Item"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d01c" name="KBSCE Object menu: Transform: :Rotate 90deg CW Menu Item"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d01d" name="KBSCE Object menu: Transform: :Rotate 90deg CCW Menu Item"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x2c56" name="KBSCE Object menu: Fitting: :Fram&amp;e Fitting Options..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10536" name="KBSCE Tables menu:Split Cell Horizontally"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10537" name="KBSCE Tables menu:Split Cell Vertically"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10545" name="KBSCE Tables menu:Go to Row..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10525" name="KBSCE Tables menu:kTablesMenuEdit Header_&amp;"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10526" name="KBSCE Tables menu:kTablesMenuEdit Footer_&amp;"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10502" name="KBSCE Tables menu: Table Options: :Alternating Row Strokes..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10546" name="KBSCE Tables menu: Table Options: :Alternating Column Strokes..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10501" name="KBSCE Tables menu: Table Options: :Alternating Fills..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10553" name="KBSCE Tables menu: Table Options: :Headers and Footers..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x11902" name="KBSCE View menu:Overprint Preview"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x7e0c" name="KBSCE View menu:kProof_Colors"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d005" name="KBSCE View menu:Entire Pasteboard"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1360c" name="KBSCE View menu:Show Hyperlinks"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x5f1b" name="KBSCE View menu: Grids Guides: :Lock Colu&amp;mn Guides"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x13210" name="KBSCE View menu: Display Performance: :Ignore Local Display Settings"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1320f" name="KBSCE View menu: Display Performance: :Clear Local Display Settings"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d037" name="KBSCE View menu: Screen Mode: :Slug Mode Tool"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1d036" name="KBSCE View menu: Screen Mode: :Bleed Mode Tool"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x2b04" name="KBSCE Window menu:Attributes_WinMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x5e02" name="KBSCE Window menu:Gradient_WinMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x15c01" name="KBSCE Window menu:Info_WinMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x4801" name="KBSCE Window menu:Layers_WinMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1ba01" name="KBSCE Window menu:Object Styles"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x2b03" name="KBSCE Window menu:Stroke_WinMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1330b" name="KBSCE Window menu:Tag_PanelMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x20405" name="KBSCE Window menu: Type &amp; Tables: :CellStyleMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x13101" name="KBSCE Window menu: Type &amp; Tables: :Index_WinMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x20401" name="KBSCE Window menu: Type &amp; Tables: :TableStyleMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x4101" name="KBSCE Window menu: Object &amp; Layout: :Navigator_WinMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x18527" name="KBSCE Window menu: Object &amp; Layout: :Pathfinder_WinMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x760c" name="KBSCE Window menu: Object &amp; Layout: :Transform_WinMenu"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x102" name="KBSCE Window menu: Arrange: :&amp;New Window"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xb101" name="KBSCE Apple menu:&amp;Configure Plug-ins..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xbb14" name="KBSCE Notes menu:NotesMenu_NotesMode"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xbb03" name="KBSCE Notes menu:NotesMenu_OpeNote"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xbb04" name="KBSCE Notes menu:NotesMenu_DeleteNote"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xbb08" name="KBSCE Notes menu:NotesMenu_ConvertToNote"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xbb0a" name="KBSCE Notes menu:NotesMenu_ConvertToText"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xbb2f" name="KBSCE Notes menu:NotesMenu_SplitNote"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xbb15" name="KBSCE Notes menu:NotesMenu_ExpandCollapseAllNotes"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xbb36" name="KBSCE Notes menu:NotesMenu_RemoveStoryNotes"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xbb18" name="KBSCE Notes menu:NotesMenu_RemoveAllNotes"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x8802" name="KBSCE Object editing:Convert Clipping to Frame"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x1a707" name="KBSCE Type menu: Bulleted &amp; Numbered Lists: :kDefineListMenuItemKey"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0xb833" name="KBSCE Type menu: Insert Break Character: :ZW Non Joiner"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x15b01" name="KBSCE File menu:kSaveAVersion..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x13354" name="KBSCE File menu:File_ExportXML"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x18f09" name="KBSCE Edit menu:Unembed Story"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x9904" name="KBSCE Apple menu:Preferences: :kClipboardHandling..."></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10555" name="KBSCE Tables menu: Select: :Header Rows"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10554" name="KBSCE Tables menu: Select: :Body Rows"></action-id>
+		</hidden-menuitem>
+		<hidden-menuitem>
+			<action-id value="0x10556" name="KBSCE Tables menu: Select: :Footer Rows"></action-id>
+		</hidden-menuitem>
+	</hidden-menuitem-list>
+</menu-set>
+</user-workspace>

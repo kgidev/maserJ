@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+-
+- phpMyAdmin XML Dump
+- version 2.11.2
+- http://www.phpmyadmin.net
+-
+-->
+
+<!--
+- Datenbank: 'galba_org'
+-->
+<galba_org>
+  <!-- Tabelle images -->
+    <images>
+        <id>1</id>
+        <height>120</height>
+        <width>100</width>
+        <desc>Privatbesitz</desc>
+        <title>Blumenwalzer</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>2</id>
+        <height>80</height>
+        <width>60</width>
+        <title>Madame B.</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>3</id>
+        <height>80</height>
+        <width>60</width>
+        <title>Baumgeister</title>
+        <tech>Acryl gespachtelt</tech>
+    </images>
+    <images>
+        <id>4</id>
+        <height>50</height>
+        <width>40</width>
+        <title>Karneval brazil</title>
+        <tech>Collage</tech>
+    </images>
+    <images>
+        <id>5</id>
+        <height>60</height>
+        <width>35</width>
+        <title>Neid</title>
+        <tech>Acryl gespachtelt</tech>
+    </images>
+    <images>
+        <id>6</id>
+        <height>60</height>
+        <width>50</width>
+        <title>ohne Titel</title>
+        <tech>Acryl gespachtelt</tech>
+    </images>
+    <images>
+        <id>7</id>
+        <height>40</height>
+        <width>40</width>
+        <title>ohne Titel</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>8</id>
+        <height>59</height>
+        <width>40</width>
+        <title>Blume</title>
+        <tech>Acryl gespachtelt</tech>
+    </images>
+    <images>
+        <id>9</id>
+        <height>65</height>
+        <width>59</width>
+        <title>Bunte Segel</title>
+        <tech>Aquarell</tech>
+    </images>
+    <images>
+        <id>11</id>
+        <height>80</height>
+        <width>90</width>
+        <title>Trilogie</title>
+        <tech>Acryl gespachtelt</tech>
+    </images>
+    <images>
+        <id>12</id>
+        <height>65</height>
+        <width>55</width>
+        <title>Natur</title>
+        <tech>Aquarell
+</tech>
+    </images>
+    <images>
+        <id>13</id>
+        <height>70</height>
+        <width>50</width>
+        <title>Wasserburg</title>
+        <tech>Aquarell</tech>
+    </images>
+    <images>
+        <id>14</id>
+        <height>50</height>
+        <width>40</width>
+        <title>Nils Holgersons wundersame Reise</title>
+        <tech>Acryl gespachtelt</tech>
+    </images>
+    <images>
+        <id>15</id>
+        <height>50</height>
+        <width>50</width>
+        <title>Herbstlaub</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>16</id>
+        <height>40</height>
+        <width>50</width>
+        <title>ohne Titel</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>17</id>
+        <height>40</height>
+        <width>40</width>
+        <title>Königin der Nacht</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>18</id>
+        <height>30</height>
+        <width>40</width>
+        <title>Ur-Schwein</title>
+        <tech>Acryl gespachtelt
+</tech>
+    </images>
+    <images>
+        <id>19</id>
+        <height>30</height>
+        <width>30</width>
+        <title>Waldgeist</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>20</id>
+        <height>30</height>
+        <width>30</width>
+        <title>Auf der Lauer</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>21</id>
+        <height>30</height>
+        <width>30</width>
+        <title>Katzenwäsche</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>22</id>
+        <height>40</height>
+        <width>30</width>
+        <desc></desc>
+        <title>Frau mit Hut</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>23</id>
+        <height>65</height>
+        <width>55</width>
+        <title>Aquarium</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>24</id>
+        <height>38</height>
+        <width>57</width>
+        <desc>Abendstimmung&lt;br&gt;&lt;br&gt; Verheißende Romantik&lt;br&gt;&lt;br&gt;Vor unerreichbarem Horizont</desc>
+        <title>Abendrot</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>25</id>
+        <height>50</height>
+        <width>60</width>
+        <desc>Aus steilem Gestein&lt;br&gt;&lt;br&gt;Blicken in starrer Erhabenheit&lt;br&gt;&lt;br&gt; Auf das Auf und Ab&lt;br&gt;&lt;br&gt; Des Leben`s Wellen</desc>
+        <title>Rote Klippen</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>26</id>
+        <height>124</height>
+        <width>44</width>
+        <title>Der Hofnarr</title>
+        <tech>Acryl gespachtelt
+</tech>
+    </images>
+    <images>
+        <id>27</id>
+        <height>64</height>
+        <width>84</width>
+        <desc>Pfauen federn federleicht&lt;br&gt;&lt;br&gt; 
+Balzen vielfarbig mit ihrer Pracht&lt;br&gt;&lt;br&gt; 
+Bezirzen die Damen&lt;br&gt;&lt;br&gt; 
+Die ihnen bewundernd zu Füßen fallen&lt;br&gt;&lt;br&gt;
+Nur Schein, nur Trug&lt;br&gt;&lt;br&gt;
+Ein schillerndes Blendwerk der Natur</desc>
+        <title>Rad des Pfaus</title>
+        <tech>Acryl gespachtelt
+</tech>
+    </images>
+    <images>
+        <id>28</id>
+        <height>50</height>
+        <width>40</width>
+        <desc>Wasser fällt donnernd und tosend&lt;br&gt;&lt;br&gt; 
+Stürzt in Tränenlawinen&lt;br&gt;&lt;br&gt;
+Steile Schluchten hinab&lt;br&gt;&lt;br&gt; 
+Und verschmilzt mit dem Tränenmeer</desc>
+        <title>Am Wasserfall</title>
+        <tech>Aquacryl</tech>
+    </images>
+    <images>
+        <id>29</id>
+        <height>40</height>
+        <width>50</width>
+        <desc>Frauenakt&lt;br&gt;&lt;br&gt; Geschmeidig dahingegossen&lt;br&gt;&lt;br&gt; Geschmolzen in Bronze&lt;br&gt;&lt;br&gt; Ein Augenblick, angehalten für alle Zeiten&lt;br&gt;&lt;br&gt;Dennoch nach Jahrzehnten zerfurcht&lt;br&gt;&lt;br&gt;Nach Jahrhunderten zerfallen</desc>
+        <title>Die Athletin</title>
+        <tech>Acryl gespachtelt</tech>
+    </images>
+    <images>
+        <id>30</id>
+        <height>50</height>
+        <width>70</width>
+        <desc>Schillernd im Sonnenlicht&lt;br&gt;&lt;br&gt;Geht mit dem Wind&lt;br&gt;&lt;br&gt; Auf Reisen</desc>
+        <title>Federball</title>
+        <tech>Acryl gespachtelt</tech>
+    </images>
+    <images>
+        <id>31</id>
+        <height>40</height>
+        <width>40</width>
+        <title>Im Katzenhimmel</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>32</id>
+        <height>40</height>
+        <width>50</width>
+        <desc>Rotieren in der Strömung der Zeit&lt;br&gt;&lt;br&gt; 
+Nur das Sinnbild dauerhafter Göttlichkeit&lt;br&gt;&lt;br&gt; 
+Bleibt erhalten als sichere Gestalt</desc>
+        <title>Wirbelnde Häuser</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>33</id>
+        <height>70</height>
+        <width>50</width>
+        <title>Rose in rot</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>34</id>
+        <height>50</height>
+        <width>50</width>
+        <desc>
+Tut sich auf dort in der Wolkenwand&lt;br&gt;&lt;br&gt; 
+Hoch über allem Irdischen&lt;br&gt;&lt;br&gt; 
+In welches Leben mag es führen ? 
+</desc>
+        <title>Tor in eine andere Welt</title>
+        <tech>Collage</tech>
+    </images>
+    <images>
+        <id>35</id>
+        <height>50</height>
+        <width>50</width>
+        <desc>...doch nun verschließt du dich erneut,&lt;br&gt;&lt;br&gt;
+Ziehst dich auf deine Burgfestung&lt;br&gt;&lt;br&gt;
+Der familiären Sicherheit zurück&lt;br&gt;&lt;br&gt;Brichst alle Kontakte ab,&lt;br&gt;&lt;br&gt; 
+Auch die zu dir selbst,&lt;br&gt;&lt;br&gt; 
+Ziehst die Zugbrücken hoch&lt;br&gt;&lt;br&gt; 
+</desc>
+        <title>Burgfestung</title>
+        <tech>Aquarell
+</tech>
+    </images>
+    <images>
+        <id>36</id>
+        <height>40</height>
+        <width>50</width>
+        <desc>Tausend Füße&lt;br&gt;&lt;br&gt;
+Tausend Glieder&lt;br&gt;&lt;br&gt; 
+Tausenderlei Gestalt&lt;br&gt;&lt;br&gt; 
+Recken, winden, schlängeln, zischen&lt;br&gt;&lt;br&gt; 
+Heben ab und lernen fliegen 
+</desc>
+        <title>Traumphantasien</title>
+        <tech>Acryl
+</tech>
+    </images>
+    <images>
+        <id>37</id>
+        <height>50</height>
+        <width>70</width>
+        <desc>Palast aus Kristall&lt;br&gt;&lt;br&gt; 
+Die Eisprinzessin schläft den&lt;br&gt;&lt;br&gt;
+Jahrtausendschlaf der Phantasie&lt;br&gt;&lt;br&gt; 
+Doch:&lt;br&gt;&lt;br&gt; 
+Wehe, die Traumwelt schmilzt dahin!</desc>
+        <title>Traumwelt</title>
+        <tech>Aquarell</tech>
+    </images>
+    <images>
+        <id>38</id>
+        <height>42</height>
+        <width>62</width>
+        <desc>Gebogene Gräser glitzern in Gold und Gelb &lt;br&gt;&lt;br&gt;Gegen das Mondlicht schimmern sie silbern&lt;br&gt;&lt;br&gt;Verneigen sich zur Erde &lt;br&gt;&lt;br&gt;Bevor sie empor schnellen&lt;br&gt;&lt;br&gt;Und den Mond anbeten</desc>
+        <title>Schilf im Vollmond</title>
+        <tech>Acryl</tech>
+    </images>
+    <images>
+        <id>39</id>
+        <height>70</height>
+        <width>50</width>
+        <desc>Ein Irrweg ? &lt;br&gt;&lt;br&gt;Oder verheißungsvolle Uendlichkeit ?&lt;br&gt;&lt;br&gt; Tor zur Liebe und zur Göttlichkeit?&lt;br&gt;&lt;br&gt; Oder abrupter Halt am Abhang ?&lt;br&gt;&lt;br&gt; Mut, über die Schwelle zu gehen.&lt;br&gt;&lt;br&gt; Durch ein Tor in's Licht.&lt;br&gt;&lt;br&gt; - Wagnis im Abenteuer Leben -</desc>
+        <title>Weg ins Licht</title>
+        <tech>Acryl gespachtelt</tech>
+    </images>
+  <!-- Tabelle lampen -->
+    <lampen>
+        <id>1</id>
+        <bild>1</bild>
+        <bestellnr>1927-03-24</bestellnr>
+        <beschreibung>Handy1</beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>380</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>2</id>
+        <bild>1</bild>
+        <bestellnr>1927-05-24</bestellnr>
+        <beschreibung>Kristall-Leuchter mit 5 Kerzenhaltern und 1 + 5 Glühbirnen</beschreibung>
+        <hoehe>580</hoehe>
+        <durchmesser>480</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>3</id>
+        <bild>1</bild>
+        <bestellnr>1927-06-24</bestellnr>
+        <beschreibung>Kristall-Leuchter mit 6 Kerzenhaltern und 1 + 6 Glühbirnen</beschreibung>
+        <hoehe>600</hoehe>
+        <durchmesser>540</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>4</id>
+        <bild>2</bild>
+        <bestellnr>1460-05-10</bestellnr>
+        <beschreibung>Kristall-Leuchter , Chrom mit 5 Kerzenhaltern und 1 x 50 Watt Halogenlampe mittig</beschreibung>
+        <hoehe>420</hoehe>
+        <durchmesser>440</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>5</id>
+        <bild>3</bild>
+        <bestellnr>1835-14</bestellnr>
+        <beschreibung>Kristall-Leuchter mit 1 Glühbirne mittig und für 5 Lampen innen</beschreibung>
+        <hoehe>1040</hoehe>
+        <durchmesser>400</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>6</id>
+        <bild>4</bild>
+        <bestellnr>5112-K</bestellnr>
+        <beschreibung>Hängelampe schmiedeeisern schwarz mit Kristallen für 5 Glühbirnen und mit 5 Kerzenhaltern</beschreibung>
+        <hoehe>500</hoehe>
+        <durchmesser>570</durchmesser>
+        <kategorie>S</kategorie>
+    </lampen>
+    <lampen>
+        <id>7</id>
+        <bild>5</bild>
+        <bestellnr>5650-5</bestellnr>
+        <beschreibung>Hängelampe schmiedeeisern mit Kristallen für 1 Glühbirne mittig und mit 6 Kerzenhaltern</beschreibung>
+        <hoehe>430</hoehe>
+        <durchmesser>500</durchmesser>
+        <kategorie>S</kategorie>
+    </lampen>
+    <lampen>
+        <id>8</id>
+        <bild>6</bild>
+        <bestellnr>5464-41</bestellnr>
+        <beschreibung>Hängelampe rost mit mattem Glas und für 3 Glühbirnen</beschreibung>
+        <hoehe>600</hoehe>
+        <durchmesser>540</durchmesser>
+        <kategorie>S</kategorie>
+    </lampen>
+    <lampen>
+        <id>9</id>
+        <bild>7</bild>
+        <bestellnr>1765-L-10</bestellnr>
+        <beschreibung>Kristall-Leuchter Barock mit 5 Kerzenhaltern und 3 Glühbirnen</beschreibung>
+        <hoehe>500</hoehe>
+        <durchmesser>430</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>10</id>
+        <bild>8</bild>
+        <bestellnr>1608-36</bestellnr>
+        <beschreibung>Kristall-Leuchter gold, in Kugelform für 4 Glühbirnen</beschreibung>
+        <hoehe>400</hoehe>
+        <durchmesser>380</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>11</id>
+        <bild>9</bild>
+        <bestellnr>1850-24</bestellnr>
+        <beschreibung>Kristall-Leuchter für 5 Kerzenhaltern und 1 Halogenlampe mittig eine Glaskuppel für 1 Glühbirne</beschreibung>
+        <hoehe>600</hoehe>
+        <durchmesser>430</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>12</id>
+        <bild>10</bild>
+        <bestellnr>1802-24</bestellnr>
+        <beschreibung>Kristall-Leuchter mit 5 Kerzenhaltern und für 5 Glühbirne</beschreibung>
+        <hoehe>570</hoehe>
+        <durchmesser>460</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>13</id>
+        <bild>11</bild>
+        <bestellnr>1807-6-14</bestellnr>
+        <beschreibung>Kristall-Leuchter mit 6 Kerzenhaltern und für 5 Glühbirnen</beschreibung>
+        <hoehe>700</hoehe>
+        <durchmesser>540</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>14</id>
+        <bild>11</bild>
+        <bestellnr>1807-5-14</bestellnr>
+        <beschreibung>Kristall-Leuchter mit 5 Kerzenhaltern und 4 Glühbirnen</beschreibung>
+        <hoehe>515</hoehe>
+        <durchmesser>480</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>15</id>
+        <bild>12</bild>
+        <bestellnr>1927-08-14</bestellnr>
+        <beschreibung>Kristall-Leuchter mit 8 Kerzenhaltern und für 1 + 8 Glühbirnen</beschreibung>
+        <hoehe>850</hoehe>
+        <durchmesser>680</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>16</id>
+        <bild>12</bild>
+        <bestellnr>1927-12-14</bestellnr>
+        <beschreibung>Kristall-Leuchter mit 12 Kerzenhaltern und 1 + 12 Glühbirnen</beschreibung>
+        <hoehe>1100</hoehe>
+        <durchmesser>920</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>17</id>
+        <bild>13</bild>
+        <bestellnr>1761-3L-20</bestellnr>
+        <beschreibung>Barock Kristall-Leuchter mit 3 Kerzenhaltern und 3 Glühbirnen</beschreibung>
+        <hoehe>460</hoehe>
+        <durchmesser>380</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>18</id>
+        <bild>14</bild>
+        <bestellnr>1761-5L-20</bestellnr>
+        <beschreibung>Barock Kristall-Leuchter mit 5 Kerzenhaltern und 3 Glühbirnen</beschreibung>
+        <hoehe>440</hoehe>
+        <durchmesser>440</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>19</id>
+        <bild>14</bild>
+        <bestellnr>1761-8L-20</bestellnr>
+        <beschreibung>Barock Kristall-Leuchter mit 8 Kerzenhaltern und 5 Glühbirnen</beschreibung>
+        <hoehe>570</hoehe>
+        <durchmesser>540</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>20</id>
+        <bild>14</bild>
+        <bestellnr>1761-12L-20</bestellnr>
+        <beschreibung>Barock Kristall-Leuchter mit 12 Kerzenhaltern und 6 Glühbirnen</beschreibung>
+        <hoehe>590</hoehe>
+        <durchmesser>640</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>21</id>
+        <bild>15</bild>
+        <bestellnr>1130-3</bestellnr>
+        <beschreibung>Hängelampe schmiedeeisern grau mit Kristallen und für 3 Glühbirnen</beschreibung>
+        <hoehe>550</hoehe>
+        <durchmesser>385</durchmesser>
+        <kategorie>S</kategorie>
+    </lampen>
+    <lampen>
+        <id>22</id>
+        <bild>15</bild>
+        <bestellnr>1130-5</bestellnr>
+        <beschreibung>Hängelampe schmiedeeisern grau mit Kristallen und 5 Glühbirnen</beschreibung>
+        <hoehe>570</hoehe>
+        <durchmesser>430</durchmesser>
+        <kategorie>S</kategorie>
+    </lampen>
+    <lampen>
+        <id>23</id>
+        <bild>16</bild>
+        <bestellnr>4864-13 K03</bestellnr>
+        <beschreibung>Fensterlampe mit Kristallen und für 1 Glühbirne</beschreibung>
+        <hoehe>140</hoehe>
+        <durchmesser>70</durchmesser>
+        <kategorie>F</kategorie>
+    </lampen>
+    <lampen>
+        <id>24</id>
+        <bild></bild>
+        <bestellnr></bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie></kategorie>
+    </lampen>
+    <lampen>
+        <id>25</id>
+        <bild>16</bild>
+        <bestellnr></bestellnr>
+        <beschreibung>antik oder gold</beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie>F</kategorie>
+    </lampen>
+    <lampen>
+        <id>26</id>
+        <bild>17</bild>
+        <bestellnr>4864-25 BR B38</bestellnr>
+        <beschreibung>Fensterlampe mit Kristallen und für 1 Glühbirne</beschreibung>
+        <hoehe>150</hoehe>
+        <durchmesser>80</durchmesser>
+        <kategorie>F</kategorie>
+    </lampen>
+    <lampen>
+        <id>27</id>
+        <bild>17</bild>
+        <bestellnr></bestellnr>
+        <beschreibung>antik oder gold</beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie>F</kategorie>
+    </lampen>
+    <lampen>
+        <id>28</id>
+        <bild></bild>
+        <bestellnr></bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie></kategorie>
+    </lampen>
+    <lampen>
+        <id>29</id>
+        <bild>18</bild>
+        <bestellnr>4809-14 B 63</bestellnr>
+        <beschreibung>Fensterlampe mit Kristallen und für 1 Glühbirne</beschreibung>
+        <hoehe>150</hoehe>
+        <durchmesser>80</durchmesser>
+        <kategorie>F</kategorie>
+    </lampen>
+    <lampen>
+        <id>30</id>
+        <bild></bild>
+        <bestellnr></bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie></kategorie>
+    </lampen>
+    <lampen>
+        <id>31</id>
+        <bild>19</bild>
+        <bestellnr>4608-15-20</bestellnr>
+        <beschreibung>Fensterlampe gold rund mit Kristallen für und 1 Glühbirne</beschreibung>
+        <hoehe>170</hoehe>
+        <durchmesser>150</durchmesser>
+        <kategorie>F</kategorie>
+    </lampen>
+    <lampen>
+        <id>32</id>
+        <bild>19</bild>
+        <bestellnr>4608-20-20</bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>210</hoehe>
+        <durchmesser>200</durchmesser>
+        <kategorie>F</kategorie>
+    </lampen>
+    <lampen>
+        <id>33</id>
+        <bild>20</bild>
+        <bestellnr>1400</bestellnr>
+        <beschreibung>Kristall-Leuchter Chrom mit 6 Kerzenhaltern und für 1 x 50 W Halogen</beschreibung>
+        <hoehe>550</hoehe>
+        <durchmesser>520</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>34</id>
+        <bild>20</bild>
+        <bestellnr>1400</bestellnr>
+        <beschreibung>antik,gold oder chrom</beschreibung>
+        <hoehe>550</hoehe>
+        <durchmesser>520</durchmesser>
+        <kategorie>K</kategorie>
+    </lampen>
+    <lampen>
+        <id>35</id>
+        <bild>21</bild>
+        <bestellnr>6112-1K</bestellnr>
+        <beschreibung>Wandlampe schmiedeeisern schwarz mit 2 Kerzenhaltern und für 1 Glühbirne</beschreibung>
+        <hoehe>480</hoehe>
+        <durchmesser>250</durchmesser>
+        <kategorie>S</kategorie>
+    </lampen>
+    <lampen>
+        <id>36</id>
+        <bild>22</bild>
+        <bestellnr>2927-24</bestellnr>
+        <beschreibung>Kristall-Wandlampe mit 2 Kerzenhaltern und 1 Glühbirne</beschreibung>
+        <hoehe>340</hoehe>
+        <durchmesser>310</durchmesser>
+        <kategorie>W</kategorie>
+    </lampen>
+    <lampen>
+        <id>37</id>
+        <bild></bild>
+        <bestellnr></bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie></kategorie>
+    </lampen>
+    <lampen>
+        <id>38</id>
+        <bild>23</bild>
+        <bestellnr>2808-21</bestellnr>
+        <beschreibung>Kristall-Wandlampe für 1 Glühbirne</beschreibung>
+        <hoehe>250</hoehe>
+        <durchmesser>175</durchmesser>
+        <kategorie>W</kategorie>
+    </lampen>
+    <lampen>
+        <id>39</id>
+        <bild></bild>
+        <bestellnr></bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie></kategorie>
+    </lampen>
+    <lampen>
+        <id>40</id>
+        <bild>24</bild>
+        <bestellnr>2864-13</bestellnr>
+        <beschreibung>Kristall-Wandlampe für 1 Glühbirne</beschreibung>
+        <hoehe>200</hoehe>
+        <durchmesser>160</durchmesser>
+        <kategorie>W</kategorie>
+    </lampen>
+    <lampen>
+        <id>41</id>
+        <bild></bild>
+        <bestellnr></bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie>W</kategorie>
+    </lampen>
+    <lampen>
+        <id>42</id>
+        <bild>25</bild>
+        <bestellnr>2807-15</bestellnr>
+        <beschreibung>Kristall-Wandlampe mit 2 Kerzenhaltern und für 1 Glühbirne</beschreibung>
+        <hoehe>320</hoehe>
+        <durchmesser>220</durchmesser>
+        <kategorie>W</kategorie>
+    </lampen>
+    <lampen>
+        <id>43</id>
+        <bild>26</bild>
+        <bestellnr>1813-2-20</bestellnr>
+        <beschreibung>Kristall-Deckenleuchte für 2 Glühbirnen</beschreibung>
+        <hoehe>250</hoehe>
+        <durchmesser>250</durchmesser>
+        <kategorie>D</kategorie>
+    </lampen>
+    <lampen>
+        <id>44</id>
+        <bild></bild>
+        <bestellnr></bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie></kategorie>
+    </lampen>
+    <lampen>
+        <id>45</id>
+        <bild>27</bild>
+        <bestellnr>1815-36-20</bestellnr>
+        <beschreibung>Kristall-Deckenleuchte für 4 Glühbirnen</beschreibung>
+        <hoehe>190</hoehe>
+        <durchmesser>360</durchmesser>
+        <kategorie>D</kategorie>
+    </lampen>
+    <lampen>
+        <id>46</id>
+        <bild></bild>
+        <bestellnr></bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie></kategorie>
+    </lampen>
+    <lampen>
+        <id>47</id>
+        <bild>27</bild>
+        <bestellnr>1815-42-20</bestellnr>
+        <beschreibung>Kristall-Deckenleuchte für 5 Glühbirnen</beschreibung>
+        <hoehe>190</hoehe>
+        <durchmesser>420</durchmesser>
+        <kategorie>D</kategorie>
+    </lampen>
+    <lampen>
+        <id>48</id>
+        <bild>27</bild>
+        <bestellnr>1815-48-20</bestellnr>
+        <beschreibung>Kristall-Deckenleuchte für 6 Glühbirnen</beschreibung>
+        <hoehe>190</hoehe>
+        <durchmesser>480</durchmesser>
+        <kategorie>D</kategorie>
+    </lampen>
+    <lampen>
+        <id>49</id>
+        <bild>27</bild>
+        <bestellnr>1815-60-20</bestellnr>
+        <beschreibung>Kristall-Deckenleuchte für 8 Glühbirnen</beschreibung>
+        <hoehe>190</hoehe>
+        <durchmesser>600</durchmesser>
+        <kategorie>D</kategorie>
+    </lampen>
+    <lampen>
+        <id>50</id>
+        <bild>28</bild>
+        <bestellnr>1815-24-20</bestellnr>
+        <beschreibung>Kristall-Deckenleuchte für 2 Glühbirnen</beschreibung>
+        <hoehe>190</hoehe>
+        <durchmesser>240</durchmesser>
+        <kategorie>D</kategorie>
+    </lampen>
+    <lampen>
+        <id>51</id>
+        <bild></bild>
+        <bestellnr></bestellnr>
+        <beschreibung></beschreibung>
+        <hoehe>0</hoehe>
+        <durchmesser>0</durchmesser>
+        <kategorie></kategorie>
+    </lampen>
+    <lampen>
+        <id>52</id>
+        <bild>29</bild>
+        <bestellnr>1812-43-20</bestellnr>
+        <beschreibung>Kristall-Deckenleuchte für 5 Glühbirnen</beschreibung>
+        <hoehe>210</hoehe>
+        <durchmesser>430</durchmesser>
+        <kategorie>D</kategorie>
+    </lampen>
+    <lampen>
+        <id>53</id>
+        <bild>29</bild>
+        <bestellnr>1812-58-20</bestellnr>
+        <beschreibung>Kristall-Deckenleuchte für 8 Glühbirnen</beschreibung>
+        <hoehe>320</hoehe>
+        <durchmesser>580</durchmesser>
+        <kategorie>D</kategorie>
+    </lampen>
+    <lampen>
+        <id>54</id>
+        <bild>30</bild>
+        <bestellnr>3811-15</bestellnr>
+        <beschreibung>Tisch-Kristall-Lampe für 1 Glühbirne</beschreibung>
+        <hoehe>270</hoehe>
+        <durchmesser>120</durchmesser>
+        <kategorie>S</kategorie>
+    </lampen>
+</galba_org>
